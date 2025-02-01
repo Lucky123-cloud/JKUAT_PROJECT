@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ada Lovelace - Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Ada Lovelace</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="form.html">Form</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Ask a Question</h2>
+    <form id="questionForm">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="question">Your Question:</label>
+      <textarea id="question" name="question" required></textarea>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="response"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ada Lovelace Tribute. All rights reserved. Crafted with Love by Lucky Baraka</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

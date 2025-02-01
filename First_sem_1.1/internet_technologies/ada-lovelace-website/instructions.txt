@@ -1,0 +1,54 @@
+Ada Lovelace Tribute Website - Project Instructions
+
+Objective:
+Create a three-page website dedicated to a personality of your choice (in this case, Ada Lovelace) using HTML, CSS, and JavaScript (no frameworks).
+
+Requirements:
+
+1. Index Page (index.html):
+   - Include a photograph of the person and their last known address.
+   - Write a brief biography with subsections: Education, Employment History, and Other Relevant Information.
+   - List awards and distinctions earned by the person.
+   - Provide a list of relevant references, including links to online materials.
+
+2. Form Page (form.html):
+   - Create a form where users can input their name and a question.
+   - Use JavaScript to dynamically render the submitted information on the page.
+
+3. Gallery Page (gallery.html):
+   - Display a gallery of images related to the person.
+
+General Requirements:
+- Include a navigation bar on all pages for easy navigation.
+- Ensure all pages have a consistent look (e.g., same header, footer, and styling).
+- Apply the CRAP design principles (Contrast, Repetition, Alignment, Proximity).
+
+Steps to Implement:
+1. Create the folder structure:
+   - HTML files: index.html, form.html, gallery.html
+   - CSS file: styles.css
+   - JavaScript file: script.js
+   - Images folder: Add relevant images (e.g., ada.jpg, document1.jpg, document2.jpg)
+
+2. Write the HTML for each page:
+   - Use semantic HTML tags (e.g., <header>, <main>, <footer>).
+   - Link the CSS and JavaScript files to the HTML files.
+
+3. Style the website using CSS:
+   - Ensure consistent styling across all pages.
+   - Use responsive design techniques.
+
+4. Add interactivity using JavaScript:
+   - Write a script to handle form submission and dynamically display the response.
+
+5. Test the website:
+   - Open the HTML files in a browser to ensure everything works as expected.
+   - Check for responsiveness on different screen sizes.
+
+6. Document the project:
+   - Write a README.md file explaining the project, its features, and how to run it.
+   - Create a instructions.txt file to outline the project requirements and steps.
+
+Deliverables:
+- A fully functional three-page website.
+- Proper documentation (README.md and instructions.txt).
