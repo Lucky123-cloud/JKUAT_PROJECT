@@ -3,6 +3,7 @@
 using std::string;
 
 class Employee {
+    //classes in C++ are always in private access modifiers by default
 public:
     string Name;
     string Company;
@@ -30,9 +31,10 @@ int main() {
 
     // Now what is we want to create 1000 employees, will we be doing this all time?
     // The answer is NO. This is tiresome, and here we will need to solve this by something called constructor.
+    // lets see this in a file called constructor.cpp
 }
 
-// We have 3 accessers of data:
+// We have 3 access modifiers types:
 // 1. private - no one can access it
 // 2. Public - can be accessed by anyone
-// 3. Protected - cab be accessed but with specifications
+// 3. Protected - can be accessed but with specifications

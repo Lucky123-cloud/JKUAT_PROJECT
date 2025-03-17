@@ -46,7 +46,7 @@ int main() {
     // lets see this in a file called constructor.cpp
 }
 
-// We have 3 accessers of data:
+// We have 3 access modifiers of data:
 // 1. private - no one can access it
 // 2. Public - can be accessed by anyone
 // 3. Protected - cab be accessed but with specifications

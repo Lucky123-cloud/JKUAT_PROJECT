@@ -1,1 +1,17 @@
 Object Oriented Programming - 
+Access Modifers
+classes
+Methods
+Constructors
+
+Encupsulation 
+****************
+tying together data and methods that operates on that data
+Why do we do this?
+  - For the purpose of prenting anyone or anything outside of our class to be able to directly access our data
+  and to be able to interact with it or modify it directly.
+
+
+abstruction - Hiding complex things behind a procedure that makes those things look simple
+
+inheritance

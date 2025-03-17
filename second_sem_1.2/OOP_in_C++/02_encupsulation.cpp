@@ -28,7 +28,7 @@ public:
         Company = company;
         Age = age;
     }
-
+// here we go to make the setter and getter for the properties that are in private access modifiers
     // getter and setter for name
     void setName(string name) {
         Name = name;
