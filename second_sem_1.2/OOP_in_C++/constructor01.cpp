@@ -18,6 +18,8 @@ public:
         std::cout<<"Company - "<< Company <<std::endl;
         std::cout<<"Age - "<< Age <<std::endl;
     };
+
+    //now this is a constructor
     Employee(string name, string company int age) {
         Name = name;
         Company = company;
@@ -27,6 +29,9 @@ public:
 
 int main() {
     Employee employee1 = Employee("Lucky", "YT-Luckycodes", 25);
+    // employee1.Name = "Lucky";
+    // employee1.Company = "YT-LuckyCodes";
+    // employee1.Age = 21;
     employee1.introduceYourself();
 
     // lets create an employee2
@@ -34,7 +39,7 @@ int main() {
     // employee2.Name = "John"
     // employee2.Company = "Amazon"
     // employee2.Name = 23;
-    employee1.introduceYourself()
+    employee2.introduceYourself()
 
     // Now what is we want to create 1000 employees, will we be doing this all time?
     // The answer is NO. This is tiresome, and here we will need to solve this by something called constructor.
