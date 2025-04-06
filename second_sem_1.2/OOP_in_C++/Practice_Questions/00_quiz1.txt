@@ -1,0 +1,14 @@
+ Preprocessor are commands that are executed before any other  statement  in your program.
+  Describe any two such preprocessors used in C++ programming  
+
+
+  - first of preprocessors are commands/instructions that are processed before the actual compilation of the code begins
+  - The 2 main ones are:
+        - #include:
+            - used to include the content of a file into the current file
+            - #include<filename> #include<iostream>
+        
+        - #define:
+            - Used to create a MACRO or a CONSTANT to the file so that it can be resued
+            -#define MACRO/CONSTANT #define PI = 3.14259
+        -#ifndef and #pragma are others. We will research on them.
