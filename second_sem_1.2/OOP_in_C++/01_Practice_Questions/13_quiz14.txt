@@ -1,0 +1,5 @@
+ Describe the following  terms as used in OOP 
+i). Static  memory  allocation 
+ii). Dynamic memory  allocation 
+iii). Constructors 
+iv) . Destructor

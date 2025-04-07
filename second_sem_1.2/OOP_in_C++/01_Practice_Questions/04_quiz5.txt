@@ -1,0 +1,24 @@
+Explain  the  functional  difference  between if and switch control  construct
+
+Use if when conditions are complex or based on ranges or multiple variables.
+Use switch when you’re checking one variable against many known constant values.
+
+if (x == 1) {
+    // action
+} else if (x == 2) {
+    // another action
+} else {
+    // default
+}
+
+
+switch (x) {
+    case 1:
+        // action
+        break;
+    case 2:
+        // another action
+        break;
+    default:
+        // default
+}

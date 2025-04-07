@@ -1,0 +1,1 @@
+// With  an example  demonstrate  how the new and delete keywords are used with pointers in dynamic memory  allocation

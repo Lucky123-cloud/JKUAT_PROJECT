@@ -1,0 +1,59 @@
+Discuss the major drawbacks of Structured Languages that necessitated advancement of OOP
+
+Structured languages (like **C**, **Pascal**, etc.) were a big leap forward from unstructured programming (like spaghetti code), but over time, as software systems became larger and more complex, **limitations of structured programming** became clear. These limitations **paved the way** for **Object-Oriented Programming (OOP)**.
+
+
+🚫 Major Drawbacks of Structured Languages:
+
+1.Poor Data Security (No Encapsulation)
+- Structured languages focus on functions and procedures, not data.
+- Data is often globally accessible or passed around freely, making it hard to protect from accidental changes.
+  
+✅ OOP Solution:
+- OOP uses **encapsulation**: data is hidden within objects and can only be accessed through **well-defined interfaces (methods)**.
+
+
+2. Code Reusability is Limited
+- In structured languages, code reuse is mainly done through functions.
+- But there's no natural way to **reuse a group of related data and functions together**.
+
+✅ OOP Solution:
+- Inheritance allows new classes to reuse and extend existing ones.
+- This promotes better reuse and avoids code duplication.
+
+
+3. Hard to Manage Large Programs
+- As the number of functions and global variables grows, the program becomes **harder to understand, debug, and maintain**.
+- There's no clear mapping between **real-world entities** and code structures.
+
+✅ OOP Solution:
+- OOP models the program as a collection of **interacting objects**, which makes it easier to represent and organize complex systems.
+
+
+ 4.Low Modularity
+- Structured programs are organized around functions, not entities.
+- If one part of the program changes (e.g., the data structure), you may need to **change many functions**.
+
+✅OOP Solution:
+- Objects combine data and behavior together.
+- Changes to one object don’t affect others as long as interfaces stay the same — improving **modularity and flexibility**.
+
+
+ 5.Poor Real-World Mapping
+- Structured programming does not naturally map to real-world concepts.
+- For example, representing a “Student” with data and functions spread across different parts of the program is not intuitive.
+
+✅ OOP Solution:
+- OOP lets you create a **Student class** with properties (name, age) and behaviors (enroll, study) — closer to how we think about real-world entities.
+
+
+
+✅ Summary Table:
+
+| Drawback (Structured Programming) | OOP Solution |
+|-----------------------------|------------------------------|
+| No data protection          | Encapsulation               |
+| Poor code reuse             | Inheritance                 |
+| Hard to manage large code  | Modularity with classes     |
+| Difficult real-world modeling | Real-world abstraction with objects |
+| Code duplication and tight coupling | Polymorphism and abstraction    |
