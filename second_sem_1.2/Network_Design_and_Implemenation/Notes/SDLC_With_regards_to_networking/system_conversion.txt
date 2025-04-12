@@ -1,0 +1,67 @@
+System Conversion
+
+Topic: System Development Life Cycle (SDLC)  
+System Conversion is a concept from the Implementation phase of the SDLC – this is when the new system replaces the old one.
+
+📘What is System Conversion?
+
+System Conversion is the process of switching from an old information system to a new one.
+
+It’s like moving your belongings from an old house to a new one 🏠 — you want the move to be smooth, avoid breaking things, and settle in quickly.
+
+
+Why It's Important:
+- Ensures the organization transitions successfully
+- Helps users adapt to the new system
+- Minimizes disruption and risk
+
+📦 Types of System Conversion Strategies:
+
+Method	                      Description	                                              Pros	                                            Cons
+Direct Cutover	              Old system is immediately replaced by the new one	          Fast, immediate use of new system	                Risky if new system fails
+Parallel Running	          Both systems run side-by-side for a while	                  Safer fallback if new system fails	            Costly, needs more resources
+Phased Conversion	          New system is introduced in stages or modules	              Easier to manage	                                May take longer
+Pilot Conversion	          New system is implemented in one part/branch first	      Good for testing on small scale	                Might miss broader issues not seen in pilot
+
+
+
+
+
+✅When is System Conversion Done?
+
+- After system development and testing
+- Once training and data migration are complete
+- During the implementation phase of SDLC
+
+🔧 Example Scenario:
+
+> A university replaces its manual student registration with an online portal.  
+They first test it in one department (**pilot conversion**), then expand to all departments (**phased**), and finally turn off the old system (**direct cutover**).
+
+
+🧠Quick Study Notes:
+
+| Term              | Meaning                                                                 |
+|------------------|-------------------------------------------------------------------------|
+| System Conversion | Switching from the old system to a new one                             |
+| Key Phase         | Happens during **Implementation** phase of SDLC                        |
+| Goal              | Smooth transition, reduce risk, ensure user adoption                   |
+| Best Practices    | Training users, having backups, testing before full rollout            |
+
+
+📌 CAT & Exam Tips:
+
+- Know the **4 conversion methods** (name + description + pros & cons)
+- Understand **which method to use when** (e.g., use Parallel for critical systems)
+- Be ready to **recommend** a method in a case-study question
+
+
+✅ Sample Exam Q&A:
+
+> **Q: What is system conversion?**  
+✅ It is the process of replacing the old system with a new one after development.
+
+> **Q: List and explain two methods of system conversion.**  
+✅  
+1. **Parallel Conversion** – Run both systems at the same time  
+2. **Direct Cutover** – Switch off old system and turn on the new system immediately

@@ -1,0 +1,19 @@
+Explain the following terms:
+i. Connection-oriented service - Topic[computer network - communication models(OSI/TCP models)]
+ii. Server Topic[computer Networks - Network Devices/Architecture]
+iii. System conversion - Topic[System Developemt Life Cycle(SDLC)]
+iv. IP Address - Topic[Networking - IP Addressing]
+v. Subnet mask - Topic [Networking - IP Addressin/Subnetting]
+
+i) Connection-oriented service - A communication where a connection is first established between a sender and a receiver before data is sent.
+eg TCP (Transmision Control Protocol)
+pros: Ensure reliable delivery, Acknowledges data received, used in application like email, web browsing, file transfer.
+
+ii) Server - is a computer that provides resources, services, or data to other computers(called clients) over a network
+
+iii) System Conversion - is the process of switching from an old information system to a new one
+
+iv) IP Address - is a unique identifier assigned to each device connected to a network that uses the internet protocol for communication
+                - A unique number assigned to each device on a network.
+
+v) Subnet mask - A 32-bit number that splits IP addresses into network and host portions, used to create subnets for efficient IP management.

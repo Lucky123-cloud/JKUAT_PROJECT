@@ -1,0 +1,5 @@
+OSI vs TCP/IP – Quick Comparison
+OSI Model	          TCP/IP Model
+7 layers	          4 layers
+Theoretical	          Practical/used in real life
+More detailed	      Simplified

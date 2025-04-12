@@ -1,0 +1,23 @@
+OSI - Open System Interconnection
+Is a conceptual framework with 7 layers each having a specific task/job in Networking
+
+7 layers of OSI Model from top to bottom:
+Layer	  Name	                  Purpose
+7	    Application	              User interface; email, web browsers
+6	    Presentation	          Translates data (e.g., encryption, encoding)
+5	    Session	                  Manages sessions and connections
+4	    Transport	              Reliable data delivery (e.g., TCP, UDP)
+3	    Network	                  Routing of data (e.g., IP addressing)
+2	    Data Link	              MAC addressing, error detection
+1	    Physical	              Actual hardware (cables, NICs, bits on wire)
+
+🔑 Mnemonic to remember:
+
+"All People Seem To Need Data Processing"
+
+💡 Important Concepts in OSI:
+Encapsulation: Wrapping data with protocol info at each layer (as it goes down)
+
+Decapsulation: Unwrapping data at each layer (as it goes up)
+
+Layer Responsibilities: Each layer only talks to the layer above and below

@@ -1,0 +1,155 @@
+
+📘 System Development Life Cycle (SDLC) (In the context of Network System Design & Implementation)
+
+ ✅ What is SDLC in Networking?
+
+In networking, SDLC is the step-by-step process used to plan, design, implement, and maintain a network system – whether it’s a LAN, WAN, campus network, or enterprise infrastructure.
+
+> 🧠 It ensures the network meets user needs, is cost-effective, reliable, and scalable.
+
+---
+
+🔁Phases of SDLC for Network Systems
+
+| Phase               | Networking Focus Example |
+|--------------------|--------------------------|
+| 1. Planning     | Define network goals, scope, users, and budget |
+| 2. Analysis     | Gather current setup info, user needs, bandwidth requirements |
+| 3. Design       | Create network topology, select devices, plan IPs & security |
+| 4. Development  | Configure routers/switches, set up servers, create VLANs |
+| 5. Testing     | Check connectivity, performance, and security |
+| 6. Implementation| Install and launch the network infrastructure |
+| 7. Maintenance  | Ongoing support, updates, and performance monitoring |
+
+
+ Let’s now look into each phase with a networking len:
+
+1️⃣Planning Phase (Project Planning)
+
+🛠️ You decide:
+- What kind of network is needed (LAN? WLAN? WAN?)
+- How many users/devices will connect
+- Budget, timeline, and expected outcomes
+- Form a team of network engineers, project managers
+
+✅ Outputs:
+- Feasibility study (technical, financial)
+- Project charter or proposal
+
+ 2️⃣ Analysis Phase (Requirements Gathering)
+
+📊 Focus on:
+- Number of users, locations, departments
+- Existing infrastructure (if any)
+- Application requirements (e.g., VoIP, video conferencing)
+- Required bandwidth and uptime
+- Security requirements (e.g., firewall, encryption)
+
+✅Outputs:
+- Network Requirements Document
+- Network performance benchmarks
+- Baseline measurements
+
+
+3️⃣ Design Phase (Blueprint Time)
+
+🧠 You design:
+- Topology: Star, mesh, hybrid, etc.
+- Hardware: Routers, switches, access points, firewalls
+- IP Addressing: Subnets, DHCP or static?
+- Server roles: DNS, DHCP, File server, Web server
+- Protocols: TCP/IP, SNMP, OSPF, etc.
+- Security layout: VLANs, ACLs, firewall rules
+
+✅ Outputs:
+- Network design diagrams
+- Bill of materials (BOM)
+- IP addressing and VLAN scheme
+
+4️⃣ Development Phase (Configuration and Setup)
+
+💻 You now:
+- Configure routers and switches (e.g., Cisco devices)
+- Set up servers (e.g., Windows Server for DNS, DHCP)
+- Apply access controls, firewall settings
+- Create backup systems
+
+✅Outputs:
+- Configured and test-ready equipment
+- Initial network setup (test lab or pilot)
+
+
+5️⃣Testing Phase (Proof of Work)
+
+🧪 Test the network for:
+- Connectivity (ping, traceroute)
+- Bandwidth and throughput (speed tests)
+- Device communication and routing
+- Security vulnerabilities (penetration tests)
+- Redundancy and failover
+
+✅Outputs:
+- Test reports
+- Tweaked configurations
+- Sign-off for deployment
+
+6️⃣Implementation Phase (Go Live!)
+
+🚀 You:
+- Roll out the network to production
+- Train users/admins
+- Perform system conversion from old setup (e.g., old switches to new)
+
+Conversion strategies:
+- Direct Cutover
+- Parallel Running
+- Phased
+- Pilot
+
+✅Outputs:
+- Live network in use
+- Trained staff
+- Monitoring setup
+
+
+7️⃣Maintenance Phase (Ongoing Support)
+
+🔧 Your job is now to:
+- Monitor using tools like Wireshark, SolarWinds, PRTG
+- Patch and update firmware/software
+- Troubleshoot issues
+- Expand or scale the network if needed
+
+✅Outputs:
+- Uptime reports
+- Maintenance logs
+- Issue resolution records
+
+📈 Benefits of Using SDLC in Networking
+
+| Benefit                    | Explanation                                   |
+|----------------------------|-----------------------------------------------|
+| 🧩 Structure & Clarity   | Everyone knows what to do at each phase       |
+| 🎯 Goal-Oriented         | Ensures the network meets user requirements   |
+| 💸 Cost Control        | Prevents unnecessary purchases                |
+| 📊 Better Performance  | Testing and maintenance boost reliability     |
+| 🔐 Improved Security   | Security is planned early on                 |
+
+✅ Sample Exam Questions (for practice):
+
+> **Q1: Briefly explain the phases of SDLC in a network project.**  
+✅ Planning, Analysis, Design, Development, Testing, Implementation, Maintenance
+
+> **Q2: What activities are carried out during the design phase in a network project?**  
+✅ Select topology, choose devices, plan IP addressing, define security protocols
+
+> **Q3: During which SDLC phase do you perform system conversion?**  
+✅ Implementation Phase
+
+> **Q4: Give two benefits of SDLC in a networking environment.**  
+✅ Better planning, improved system performance
+
+📌 Exam Tips:
+- Always **relate the phase to networking** terms (routers, IPs, topology)
+- Use **real-world examples** like “setting up a university Wi-Fi network”
+- Know the **difference between phases** and their **outputs**

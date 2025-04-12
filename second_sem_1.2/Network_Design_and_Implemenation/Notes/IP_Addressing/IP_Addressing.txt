@@ -1,0 +1,59 @@
+Topic Summary: IP Addressing and Subnetting
+
+🧠 What is the topic about?
+
+This topic deals with how **devices identify and communicate** within a network using unique identifiers called **IP Addresses**. It also introduces **subnetting**, which helps in logically dividing a network.
+
+This is part of the **Network Layer** (Layer 3) in the OSI model where routing and addressing take place.
+
+
+📌 Key Concepts You Should Know:
+
+ 1.IP Address
+- A unique number assigned to each device on a network.
+- Format (IPv4): `192.168.1.1`
+- Purpose: To identify the sender and receiver in a network.
+
+2. Types of IP Addresses
+| Type | Purpose |
+|------|---------|
+| Public IP | Used on the Internet (assigned by ISP) |
+| Private IP | Used inside LANs (like home or school networks) |
+| Static IP | Manually configured; doesn't change |
+| Dynamic IP | Automatically assigned by DHCP server |
+
+3. IPv4 vs IPv6
+| Version | Details |
+|--------|---------|
+| IPv4 | 32-bit, 4 octets, most commonly used |
+| IPv6 | 128-bit, newer, handles more devices |
+
+
+4. DHCP (Dynamic Host Configuration Protocol)
+- Assigns IP addresses automatically.
+- Reduces manual work and chances of IP conflicts
+
+5. NAT (Network Address Translation)
+- Allows many devices with **private IPs** to use **one public IP** to access the internet.
+- Used in routers.
+
+
+📝 Why It Matters in Network Design & Implementation
+- Essential for **device communication**
+- Required for **Internet connectivity**
+- Used in **router/switch configuration**
+- Vital in **subnet planning** and **network security**
+
+
+✅ What to Know for CATs/Exams
+
+- Definition of IP address
+- Difference between private/public IPs
+- Difference between static/dynamic IPs
+- Example of IP addressing plan
+- Role of DHCP and NAT
+
+💡 Bonus: Sample Questions
+1. **Define an IP address and list two versions.**  
+2. **Differentiate between public and private IP addresses.**  
+3. **Explain the role of DHCP in IP address assignment.**

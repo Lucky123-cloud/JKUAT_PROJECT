@@ -1,0 +1,64 @@
+Server - is a computer that provides resources, services, or data to other computers(called clients) over a network
+
+How It Works:
+Clients send requests to the server
+
+Server processes the request
+
+Server responds with the required resource (e.g., web page, file, data)
+
+Types of Servers:
+Type of Server	                       Function
+Web Server	                           Hosts websites (e.g., Apache, Nginx)
+File Server	                           Stores and manages files
+Database Server	                       Stores and manages databases (e.g., MySQL, Oracle)
+Mail Server	                           Manages email sending/receiving (e.g., Microsoft Exchange)
+Application Server	                   Hosts and runs applications
+
+
+Characteristics of a Server:
+Always online (24/7 uptime expected)
+
+Usually has higher hardware capacity (RAM, storage)
+
+Can handle multiple client connections at once
+
+Runs specialized software
+
+
+🖥️ Examples of Server Use:
+When you open a website: a web server sends the content
+
+When you download a file: a file server provides it
+
+When you use Gmail: it connects to mail servers
+
+
+🧠 Exam-Ready Notes (Quickfire):
+Point	                    Detail
+Definition	                Provides services/data to clients over a network
+Architecture	            Part of client-server model
+Always-on?	                Yes, servers are usually running 24/7
+Real-world examples	        Web server, File server, Database server
+Common server software	    Apache, Nginx, Windows Server, Linux (Ubuntu/CentOS)
+Server hardware	            More powerful than standard PCs
+
+
+
+🔍 Client vs Server (Know this for your exam)
+Client	Server
+Makes request	Responds to request
+Can be any device (PC, phone)	Dedicated system
+Needs server to get services	Provides services 
+
+
+
+✅ Sample Exam Q&A:
+Q: What is a server in networking?
+✅ A server is a system that provides services or resources to clients over a network.
+
+Q: Name two types of servers and their functions.
+✅ Web server (hosts websites), File server (shares files)
+
+Q: Is a server always running? Why?
+✅ Yes. It needs to always be available to serve clients at any time.

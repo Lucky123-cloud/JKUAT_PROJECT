@@ -1,0 +1,48 @@
+The TCP/IP Model is the practical model used in the internet today. It has 4 layers.
+
+
+Layers of TCP/IP Model:
+TCP/IP Layer	 Corresponds to OSI Layers	                  Description
+Application	     7, 6, 5	                                  Apps, encryption, sessions
+Transport	     4	                                          TCP/UDP for reliable/unreliable delivery
+Internet	     3	                                          IP addressing, routing
+Network Access	 2, 1	                                      Physical transmission and MAC
+
+🔑 Mnemonic:
+
+"Apple Trees In Nairobi"
+
+
+
+Protocols You Should Know:
+Protocol	                       Layer	                          Description
+TCP	                               Transport	                      Reliable, ordered delivery (email, web)
+UDP	                               Transport	                      Fast, no guarantee (video calls, streaming)
+IP	                               Internet	                          Addressing and routing
+HTTP/HTTPS                         Application                        Web communication
+FTP	                               Application	                      File Transfer Protocol
+DNS	                               Application	                      Resolves domain names to IPs
+Ethernet/Wi-Fi	                   Network Access	                  Local network communication
+
+
+
+
+📌 What to Know for CATs & Exams:
+✅ Know the 7 OSI layers in order and what each does
+✅ Understand how data flows from one layer to another
+✅ Be able to compare OSI and TCP/IP
+✅ Understand TCP vs UDP (reliable vs fast)
+✅ Know real-life examples of protocols like HTTP, FTP, DNS
+✅ Explain Encapsulation and Decapsulation
+
+
+
+📝 Sample Exam Q&A:
+🧠 Q: What layer handles routing in OSI?
+✅ A: The Network Layer (Layer 3)
+
+🧠 Q: Which protocol provides connection-oriented service?
+✅ A: TCP
+
+🧠 Q: What is the difference between TCP and UDP?
+✅ A: TCP is reliable, ensures delivery; UDP is faster but unreliable

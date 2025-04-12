@@ -1,0 +1,67 @@
+Subnet Mask
+
+
+🔍 Definition:
+A Subnet Mask is a 32-bit number used in combination with an IP address to divide a large network into smaller, manageable subnetworks (called subnets).
+
+> It helps determine which part of an IP address is the network portion and which part is the host portion.
+
+Why is it Important?
+- It defines the range of IP addresses in a subnet.
+- It tells devices whether the destination IP is in the same network or should go through a router.
+- It supports efficient IP address management and network security.
+
+🔧Subnet Mask Format (IPv4):
+Looks like an IP address → e.g., `255.255.255.0`
+
+| Subnet Mask        | CIDR Notation | Meaning                            |
+|--------------------|---------------|------------------------------------|
+| `255.0.0.0`        | `/8`          | Class A – large networks           |
+| `255.255.0.0`      | `/16`         | Class B – medium networks          |
+| `255.255.255.0`    | `/24`         | Class C – small networks (common)  |
+| `255.255.255.192`  | `/26`         | Custom subnet with fewer hosts     |
+
+
+📌How Subnet Masks Work:
+They “mask” the IP address to identify the network portion.
+
+Example:
+- IP Address: `192.168.1.10`
+- Subnet Mask: `255.255.255.0`
+
+This means:
+- `192.168.1` = Network
+- `.10` = Host
+
+
+🧮 Quick Subnetting Example:
+If you have:
+- IP address: `192.168.1.0`
+- Subnet mask: `255.255.255.0` (or `/24`)
+- You can have: 254 usable hosts (from `.1` to `.254`)
+
+
+✨ Real-World Use:
+When setting up a network, subnet masks help:
+- Organize departments (e.g. IT, Admin, Library) into separate subnets
+- Enhance security by segmenting traffic
+- Reduce broadcast traffic
+
+📝 Summary Notes:
+
+- Used to divide IP networks into smaller subnets.
+- Works with IP addresses to find network vs host.
+- Common mask: `255.255.255.0` (aka `/24`)
+- Crucial for routing, LAN planning, and network segmentation
+
+🎯 Exam Tip:
+
+> "Explain what a subnet mask is and how it's used in networking."
+✅ A 32-bit number that splits IP addresses into network and host portions, used to create subnets for efficient IP management.
+
+
+🔁 Related Topic:
+
+This is part of:
+📘 IP Addressing & Subnetting  
+🧱 OSI Model – Network Layer

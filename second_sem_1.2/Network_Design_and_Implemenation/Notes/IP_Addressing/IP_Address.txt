@@ -1,0 +1,69 @@
+
+ IP Address
+
+✅Definition:
+An IP Address (Internet Protocol Address) is a unique identifier assigned to each device connected to a network that uses the Internet Protocol for communication.
+
+> It's like a postal address, but for devices on a network — it allows them to send and receive data.
+
+
+🔄Two Main Versions:
+| Version | Format | Example |
+|--------|--------|---------|
+| IPv4 | 32-bit (4 octets) | `192.168.1.1` |
+| IPv6 | 128-bit (hexadecimal) | `2001:0db8:85a3:0000:0000:8a2e:0370:7334` |
+
+🔧Structure of IPv4 Address (Common in Exams)
+
+- Written as four numbers separated by dots → `X.X.X.X`
+- Each number is 0 - 255
+- Example: `192.168.0.1`
+
+📚Types of IP Addresses:
+
+| Type | Description | Example |
+|------|-------------|---------|
+| Private IP | Used inside a local network | `192.168.x.x`, `10.x.x.x`, `172.16.x.x` |
+| Public IP | Assigned by ISP, used on the internet | Varies |
+| Static IP | Manually assigned, doesn't change | Used for servers |
+| Dynamic IP | Assigned by DHCP, changes over time | Most home devices use this |
+
+🎯Why IP Address is Important in Networking:
+
+- Helps in routing data to the correct destination
+- Used to configure firewalls, ACLs, and network devices
+- Necessary for network communication, internet access, and remote access
+
+
+📌Common IP-related Concepts in Network Design:
+
+1. IP Addressing Plan – Choosing the right IPs for devices in a network
+2. DHCP (Dynamic Host Configuration Protocol) – Automatically assigns IPs
+3. Subnetting – Divides a network into smaller parts (next part of your question 😉)
+4. NAT (Network Address Translation) – Translates private IPs to public for internet use
+
+
+🧠Example in Practice:
+
+> In a college network:
+- Router: `192.168.1.1`
+- Lab PC 1: `192.168.1.10`
+- Lab PC 2: `192.168.1.11`
+- Server: `192.168.1.100`
+
+All these use IP addresses to talk to each other and access the internet.
+
+📝 Summary Notes (Revision Sheet Style):
+
+- IP = Identifier for devices on a network
+- Two versions: IPv4 (32-bit), IPv6 (128-bit)
+- Types: Private/Public, Static/Dynamic
+- Assigned manually or using DHCP
+- Key in routing, communication, and device management
+
+🧪 Exam Tip
+> "Name and describe any three types of IP addresses." 
+✅ Public, Private, Static
+
+> "Explain the use of DHCP in network design."  
+✅ It dynamically assigns IP addresses to devices
