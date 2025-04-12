@@ -1,0 +1,22 @@
+🔰 Topic Overview: Network Devices
+Network devices are the hardware components that allow computers and other devices to communicate within a network.
+
+They can be used for:
+
+Data transmission
+
+Network segmentation
+
+Signal amplification
+
+Routing traffic
+
+Filtering content
+
+
+💡 Key Categories of Devices
+Type	                    Examples
+Connecting Devices	        Switches, Hubs, Routers, Gateways
+Transmission Media	        RJ45, Fiber, Coaxial
+Signal Control Devices	    Regenerators, Repeaters
+Security Devices	        Firewalls, Filters, Proxies

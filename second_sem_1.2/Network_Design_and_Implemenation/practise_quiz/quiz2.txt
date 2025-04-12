@@ -1,0 +1,20 @@
+Outline the functions of the following computer network devices.
+i. Network switch
+ii. RJ45 connections
+iii. Gateway
+iv. Regenerator
+v. Filter
+
+
+
+Network switch - Used to connect multiple devices eg Computers, Phones, laptop etc to LANs
+
+RJ45 connections - Physical connector used for ethernet networking cables.
+                 - connects devices to a NIC or a switch/router
+
+Gateway - Device in networking used to connect different network that use different protocols.
+        - Acts as a translator between networks(eg LAN to internet)
+
+Regenerator - Used to amplify and restores weak signals in long term transmission
+
+Filter - controls and restricts data traffic based on set rules

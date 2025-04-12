@@ -1,0 +1,93 @@
+1️⃣ Network Switch
+✅ Function:
+Connects multiple devices (like PCs, printers) in a LAN.
+
+Uses MAC addresses to forward data only to the intended recipient.
+
+Operates at OSI Layer 2 (Data Link Layer).
+
+📌 Key Points:
+More efficient than a hub (which sends data to all ports).
+
+Reduces network congestion.
+
+
+
+Can be managed or unmanaged (for more control).
+
+2️⃣ RJ45 Connections
+✅ Function:
+RJ45 is a physical connector used for Ethernet networking cables.
+
+Connects devices to a network interface card (NIC) or a switch/router.
+
+📌 Key Points:
+8-pin connector
+
+Used in Cat5e, Cat6, Cat7 cables
+
+Common in LAN setups
+
+
+
+3️⃣ Gateway
+✅ Function:
+Connects two different networks that use different protocols.
+
+Acts as a translator between networks (e.g. LAN to Internet).
+
+Works at OSI Layer 5–7 (Session to Application Layer).
+
+📌 Key Points:
+Examples: Modem-router combos, VoIP gateways
+
+Translates between TCP/IP and other protocols (like VoIP, ATM)
+
+
+
+4️⃣ Regenerator
+✅ Function:
+Amplifies and restores weak signals in a digital network.
+
+Used in long-distance transmission to maintain signal quality.
+
+Works at OSI Layer 1 (Physical Layer).
+
+📌 Key Points:
+Also called digital repeater
+
+Prevents data loss or errors due to signal degradation
+
+
+
+5️⃣ Filter
+✅ Function:
+Controls and restricts data traffic based on set rules.
+
+Can block unwanted IPs, ports, or URLs.
+
+Found in firewalls, routers, and switches.
+
+📌 Key Points:
+Used for security and traffic control
+
+Example: A MAC filter allows only specific devices to connect
+
+
+
+✍️ Summary Notes Table:
+Device	                             Function
+Switch	                             Connects devices in a LAN, forwards data using MAC addresses
+RJ45	                             Connector for Ethernet cables; links devices to the network
+Gateway	                             Connects networks using different protocols (e.g. LAN to Internet)
+Regenerator	                         Boosts weakened signals during long-distance transmission
+Filter	                             Blocks or allows traffic based on security rules
+
+
+
+🧠 What to Know for CATs & Exams:
+Know which OSI layer each device works on.
+
+Be able to compare devices (e.g. switch vs router, filter vs firewall).
+
+Understand how devices contribute to network performance and security.
