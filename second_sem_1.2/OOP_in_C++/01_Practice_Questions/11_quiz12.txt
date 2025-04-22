@@ -1,1 +1,4 @@
 What is the difference between  constructor  and method
+constructor is a special function that is automatically called when an object is created from a class.
+Method is a regular function that performs actions or operations on objects, called explicitly.
+

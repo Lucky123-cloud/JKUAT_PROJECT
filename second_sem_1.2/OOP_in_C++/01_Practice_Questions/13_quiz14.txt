@@ -1,5 +1,21 @@
  Describe the following  terms as used in OOP 
 i). Static  memory  allocation 
 ii). Dynamic memory  allocation 
-iii). Constructors 
+iii). Constructors
 iv) . Destructor
+
+
+
+i) Static Memory Allocation 
+ -Definition: The process of allocating memory at **compile time**, where the size and type of variables are determined before the program starts executing. The memory is allocated from the **stack** and remains fixed throughout the program's execution.
+
+
+ii) Dynamic Memory Allocation 
+- Definition: The process of allocating memory at **runtime** using pointers. Memory is allocated from the **heap**, and the size of the memory block can be determined during execution. It can be managed using functions like `new` and `delete` in C++.
+
+ iii) Constructors
+- Definition: Special functions in a class that are automatically invoked when an object of the class is created. Constructors initialize the object with specific values or default values and have the same name as the class.
+
+
+iv) Destructors  
+- Definition: Special functions in a class that are automatically called when an object is destroyed or goes out of scope. Destructors are used to release any resources allocated during the object's lifetime, like freeing memory or closing files.

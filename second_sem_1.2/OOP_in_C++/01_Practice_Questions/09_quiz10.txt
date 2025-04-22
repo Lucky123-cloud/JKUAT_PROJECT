@@ -1,2 +1,89 @@
 Give FOUR characteristics of object oriented  programming  languages 
 
+
+1.Encapsulation  
+🔒"Wrapping data and code together"
+
+- It means hiding the internal state of an object and only exposing a controlled interface.
+- Helps protect data from unauthorized access or modification.
+- Achieved using access specifiers like `private`, `protected`, and `public`.
+
+Example:
+
+class Student {
+private:
+    int age;
+
+public:
+    void setAge(int a) {
+        if (a > 0) age = a;
+    }
+
+    int getAge() {
+        return age;
+    }
+};
+
+
+2.Abstraction 
+🎭"Hiding complex implementation and showing only essential features"
+
+- Allows you to focus on what an object does instead of how it does it.
+- Achieved using classes, abstract classes, or interfaces (depending on the language).
+
+Example:
+When you use `cout`, you don’t need to know how the stream works internally — that’s abstraction.
+
+3.Inheritance
+🧬"Reusing properties and behavior from another class"
+
+- Allows a child class to inherit from a parent class.
+- Promotes code reuse and helps create a natural hierarchy.
+
+Example:
+class Animal {
+public:
+    void eat() {
+        cout << "Eating..." << endl;
+    }
+};
+
+class Dog : public Animal {
+public:
+    void bark() {
+        cout << "Barking..." << endl;
+    }
+};
+
+
+4. Polymorphism
+🌀"Many forms of a function or behavior"
+
+- Allows the same function name to behave differently depending on the object or parameters.
+- Two types:
+  - Compile-time (function overloading, operator overloading)
+  - Run-time (function overriding using virtual functions)
+
+Example:
+class Animal {
+public:
+    virtual void sound() {
+        cout << "Animal sound" << endl;
+    }
+};
+
+class Cat : public Animal {
+public:
+    void sound() override {
+        cout << "Meow" << endl;
+    }
+};
+🔚 Summary Table:
+
+| Characteristic  | Description                                    |
+|------------------|------------------------------------------------|
+| Encapsulation   | Protecting data through access control         |
+| Abstraction     | Hiding complexity and showing only essentials  |
+| Inheritance     | Reusing code from parent classes               |
+| Polymorphism    | One function, many behaviors                   |
+

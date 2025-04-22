@@ -2,3 +2,94 @@ Differentiate between the following
 i). Object oriented  and object based programming  languages 
 ii). Class and Object 
 iii). Overriding  and overloading 
+
+i) OOP - are languages that uses the ideas of Objects in programming and fully support all its principles like: 
+inheritance, polymorphism, abstraction, encapsulation and use high code reusability and model real-world scenarios eg C++, Java, C#, Python
+whereas OBP are languages that follow the concept of objects but does not support all the principles of OOP, eg JavaScript, and VBScript
+
+
+
+ii) class and Object - A class is a user defined data-type that acts as a blueprint for creating objects whereas Object is a real tangible instance of a class
+#include <iostream>
+using namespace std;
+
+// Defining a class
+class Car {
+public:
+    string brand;
+    int year;
+
+    void display() {
+        cout << "Brand: " << brand << ", Year: " << year << endl;
+    }
+};
+
+int main() {
+    // Creating an object of Car
+    Car myCar;
+
+    // Assigning values
+    myCar.brand = "Toyota";
+    myCar.year = 2020;
+
+    // Calling method
+    myCar.display();
+
+    return 0;
+}
+
+
+iii). Overriding  and overloading
+
+Overriding - is redefining the functions of a base class in a derived class, using the same parameters
+Overloading - Is defining multiple functions but with different parameters within the same class
+
+overloading example:
+#include <iostream>
+using namespace std;
+
+class Print {
+public:
+    void show(int x) {
+        cout << "Integer: " << x << endl;
+    }
+
+    void show(string s) {
+        cout << "String: " << s << endl;
+    }
+};
+
+int main() {
+    Print obj;
+    obj.show(10);
+    obj.show("Hello");
+    return 0;
+}
+
+
+Function Overriding Example (Base & Derived Classes)
+#include <iostream>
+using namespace std;
+
+class Animal {
+public:
+    virtual void sound() {
+        cout << "Animal makes a sound" << endl;
+    }
+};
+
+class Dog : public Animal {
+public:
+    void sound() override {
+        cout << "Dog barks" << endl;
+    }
+};
+
+int main() {
+    Animal* a;
+    Dog d;
+    a = &d;
+
+    a->sound();  // Calls Dog's sound() due to overriding
+    return 0;
+}

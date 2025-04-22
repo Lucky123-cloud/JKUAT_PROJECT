@@ -29,7 +29,7 @@ int main() {
     employee2.Company = "Amazon"
     employee2.Name = 23;
 
-    // Now what is we want to create 1000 employees, will we be doing this all time?
+    // Now what if we want to create 1000 employees, will we be doing this all time?
     // The answer is NO. This is tiresome, and here we will need to solve this by something called constructor.
     // lets see this in a file called constructor.cpp
 }

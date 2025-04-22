@@ -1,1 +1,5 @@
-What is the difference between  structured  programming  and OPP
+What is the difference between  structured  programming  and OOP
+
+structured programming is a programming paradigm based on procedures and functions eg Pascal, Fortain, C
+OOP is a programming paradigm based on objects and classes eg C#, C++, Python, Java
+
