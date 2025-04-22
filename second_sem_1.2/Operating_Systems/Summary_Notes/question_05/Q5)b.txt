@@ -1,0 +1,29 @@
+Discuss any five threats against the operating system or computer (15 marks)
+
+1.Malware (Malicious Software) 
+- Definition: Software designed to harm or exploit a computer system.  
+- Examples: Viruses, worms, trojans, spyware, ransomware.  
+- Real-World Scenario: A trojan disguised as a free game installs a keylogger that steals passwords from the user's OS.
+
+
+2. Unauthorized Access (Hacking) 
+- Definition: Gaining access to a system without permission.  
+- Examples: Brute-force password attacks, exploiting OS vulnerabilities.  
+- Real-World Scenario: A hacker gains root access to a Linux server and reads confidential files.
+
+3. Phishing Attacks  
+- Definition: Trick users into giving away sensitive information through fake emails or websites.  
+- Examples: Fake OS update alerts prompting users to enter credentials.  
+- Real-World Scenario: An email mimics the Windows support page and tricks users into entering their Microsoft login.
+
+4. Denial of Service (DoS) Attacks
+- Definition: Overloading a system with requests, making it unavailable to legitimate users.  
+- Examples: Flooding OS services with traffic, crashing the file system.  
+- Real-World Scenario: A website's backend server is targeted, and the OS becomes too busy to handle normal traffic.
+
+5. Privilege Escalation
+- Definition: When a user or program gains elevated access to resources that are normally protected.  
+- Examples: Exploiting a bug to get admin/root privileges.  
+- Real-World Scenario: A bug in a Linux kernel allows a regular user to gain root access and disable security features.
+
+Bonus Tip: Most of these threats can be mitigated by regular OS updates, firewalls, antivirus software, and good user awareness.

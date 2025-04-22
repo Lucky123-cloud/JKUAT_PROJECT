@@ -1,0 +1,25 @@
+Distinguish between internal fragmentation and external fragmentation(4 marks)
+
+Internal fragmentation happens inside allocated memory while external fragmentation happens in free memory spaces.
+
+Internal fragmentation, memory is wasted inside a block that's too big whereas external fragmentation memory is 
+wasted between blocks
+
+Internal fragmentation is Caused when memory is allocated more than needed whereas external fragmentation is caused when free memory is scattered in small parts.
+
+Internal fragmentation occurs when allocated memory has unused space inside a block, whereas
+external fragmentation happens when free memory is scattered in small blocks between allocated memory.
+
+Internal fragmentation wastes space within allocated memory, whereas
+external fragmentation wastes space outside allocated blocks due to non-contiguous free space.
+
+🌍 Real-world Example:
+Internal Fragmentation: Imagine you rent a storage unit that’s 10x10 meters, but you only need 7x7 meters. The extra 3x10 meters inside the unit is wasted space.
+
+External Fragmentation: Think of a parking lot where there are several small empty spots scattered around (e.g., 2-3 cars can’t park together in the scattered spaces). The total space is enough, but it’s broken up, so no car can park properly.
+
+
+💻 Computer Example:
+Internal Fragmentation: In computers, if a program is allocated 8KB of memory but only uses 6KB, the 2KB remaining is wasted inside that block.
+
+External Fragmentation: When free memory is scattered across the system in small chunks (e.g., 10KB total but in 1KB blocks), the OS can’t use it efficiently for larger processes.

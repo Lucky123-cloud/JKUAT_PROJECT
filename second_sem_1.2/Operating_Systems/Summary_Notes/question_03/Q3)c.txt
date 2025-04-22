@@ -1,0 +1,21 @@
+Explain the conditions necessary and sufficient to produce a deadlock(8 marks)
+
+1. Mutual Exclusion
+Atleast one resource must be held in a non-shareable mode. Only one process can use the resource at a time.
+🛠️ Real-world: Only one person can use a bathroom at a time.
+💻 Computer: A printer can only be used by one process at a time.
+
+2. Hold and Wait
+A process is holding at least one resource and waiting to acquire more resources held by other processes
+🛠️ Real-world: Someone is using a printer and waiting for a scanner that someone else is using.
+💻 Computer: A program holds a file lock and waits for network access.
+
+3. No preemption
+A resource cannot be forcibly taken away from a process holding it; it must be released voluntarily.
+🛠️ Real-world: You can’t forcefully take the keys from someone who is using a car—you must wait.
+💻 Computer: A process holding memory must release it; the OS cannot reclaim it forcefully.
+
+4. Circular Wait
+A set of processes are waiting for each other in a circular chain.
+🛠️ Real-world: Person A waits for Person B’s item, Person B waits for Person C’s item, and Person C waits for Person A’s item.
+💻 Computer: P1 holds Resource A and waits for B; P2 holds Resource B and waits for A.

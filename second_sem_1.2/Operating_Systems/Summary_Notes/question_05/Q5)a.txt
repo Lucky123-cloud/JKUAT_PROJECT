@@ -1,0 +1,25 @@
+Outline any five functions of the operating system (5 marks)
+1. Process Management
+Controls the creation, scheduling, and termination of processes.
+Example: Ensures your music app and browser can run simultaneously without crashing.
+
+2. Memory management
+Manages the allocation and deallocation of RAM to different programs.
+Example: Makes sure each running app gets enough memory and doesn’t interfere with others.
+
+3. File System Management
+Handles the storage, retrieval, naming, and organization of data on storage devices.
+Example: Lets you create folders, rename files, and save documents to your drive.
+
+4. Device Management
+Manages input/output devices through drivers (keyboard, mouse, printer, etc.).
+Example: Sends a print job from your PC to the printer in the correct format.
+
+5. User Interface Management
+Provides an interface (CLI or GUI) to interact with the system.
+Example: The desktop, icons, and start menu in Windows or command line in Linux.
+
+6. Security and Access Control
+The OS protects system data and resources through authentication, authorization, and encryption techniques.
+
+

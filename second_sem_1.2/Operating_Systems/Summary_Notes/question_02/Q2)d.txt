@@ -1,0 +1,44 @@
+Describe the process lifecycle (10 marks)
+
+New → Ready → Running → Waiting → Ready → Running → Terminated
+
+ 1. New (Creation)
+The process is being created by the system (using system calls like fork() in Unix).
+
+Real-world example: A new tab is opened in a browser but hasn’t fully loaded yet.
+
+Computer example: The OS is allocating resources like memory and setting up the process control block (PCB).
+
+
+ 2. Ready
+The process is ready to run and waiting for CPU time.
+
+Real-world example: A delivery truck is packed and ready to leave but waiting for traffic to clear.
+
+Computer example: The process is in the ready queue waiting to be assigned to a processor.
+
+ 3. Running
+The process is currently being executed on the CPU.
+
+Real-world example: A cashier actively serving a customer.
+
+Computer example: Instructions of the process are being executed by the CPU
+
+
+4. Waiting (Blocked)
+The process is waiting for some event to occur (e.g., I/O completion).
+
+Real-world example: A customer waiting for their food at a restaurant after ordering.
+
+Computer example: The process is waiting to read data from a file or network.
+
+5. Ready (Again)
+After the I/O is complete, the process moves back to the ready state to wait for the CPU again.
+
+
+6. Terminated (Exit)
+The process has finished execution or was forcefully terminated.
+
+Real-world example: A movie ends and the screen goes blank.
+
+Computer example: Process exits with a return code; OS reclaims resources.

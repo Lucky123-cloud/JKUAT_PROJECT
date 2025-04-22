@@ -1,0 +1,10 @@
+Differentaite between a process and a thread:
+A process is an independant program in execution with its own memory space and resources whereas a thread is a smaller unit of execution within a process that shares
+the same memory and resources of that process.
+
+
+Process VS Thread
+A process is an independent program in execution with its own memory space and resources.	A thread is a smaller unit of execution within a process that shares the same memory and resources of that process.
+Processes do not share memory space with other processes.	Threads share memory and resources with other threads of the same process.
+Communication between processes (IPC) is complex and slower.	Communication between threads is faster because they share memory.
+Processes are heavyweight; creating them takes more time and system resources.	Threads are lightweight and quicker to create and manage.

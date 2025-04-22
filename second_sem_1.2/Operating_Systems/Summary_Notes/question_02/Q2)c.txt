@@ -1,0 +1,34 @@
+State any three reasons for process termination (6 marks)
+
+1. Normal completion(Successful execution)
+    A process finishes its task and exits normally.
+    Example: A text editor saves a file and the user closes it.
+
+2. Error or Exception (Runtime Error)
+    The process encounters an error that it cannot handle (e.g., division by zero, missing file).
+    Example: A program crashes because it tries to open a file that doesn’t exist.
+
+3. Killed By another Process (e.g., by the OS or User)
+    The process is forcibly terminated by another process or the operating system.
+    Example: A user uses Task Manager or kill command to stop a frozen application.
+
+4. Resource Unavailability
+    A process is terminated because it requests a resource (like memory or I/O) that is unavailable or exhausted.
+    Example: A program crashes due to running out of RAM.
+
+5. Parent Process Termination
+    If a parent process terminates, the operating system may also terminate its child processes.
+    Example: Closing a terminal may terminate background scripts started from it.
+
+6. Timeout or Time Limit Exceeded
+    Some processes are given a time limit to complete; if they exceed this, they are killed.
+    Example: In online compilers or exam systems, long-running code is automatically stopped.
+
+7. Security Violation
+    The process tries to access unauthorized memory or perform restricted operations.
+    Example: A malware process is detected and killed by the system.
+
+8. Deadlock Involvement
+    A process is terminated by the OS as part of deadlock recovery when no progress is possible.
+    Example: Killing one of the processes stuck waiting for each other to free up resources.
+

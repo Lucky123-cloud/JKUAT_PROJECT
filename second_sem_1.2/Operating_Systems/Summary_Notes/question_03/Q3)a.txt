@@ -1,0 +1,8 @@
+define starvation (2 marks)
+Is a condition in operating system where a process waits indefinitely to be executed becuase other highe-priority
+processes are continously given preference
+
+Imagine being in a queue at a hospital, but new VIP patients keep jumping ahead — you never get served.
+
+💻 Computer example:
+In a scheduling algorithm like priority scheduling, a low-priority process may never get CPU time if higher-priority ones keep arriving.

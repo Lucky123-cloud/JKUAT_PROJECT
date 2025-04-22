@@ -1,0 +1,13 @@
+List any 5 operations that can be carried out on a file(5 marks)
+
+Create - Make a new file.
+
+Open - Access a file to read or writes
+
+Read - Get data from the file
+
+Write - Save data to the file
+
+Delete - Remove the file from the system.
+
+

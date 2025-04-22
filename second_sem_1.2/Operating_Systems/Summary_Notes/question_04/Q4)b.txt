@@ -1,0 +1,21 @@
+Distinguish between preemptive and non-preemptive scheduling (6 marks)
+
+1.CPU Allocation:
+In preemptive scheduling, the CPU can be forcibly taken from a running process if a higher-priority process arrives,
+whereas in non-preemptive scheduling, once a process gets the CPU, it runs to completion before any other process can take over.
+
+2. System Responsiveness:
+Preemptive scheduling improves responsiveness for time-sensitive or high-priority tasks,
+whereas non-preemptive scheduling may cause delays if a long process is running, affecting other waiting tasks.
+
+3. Overhead:
+Preemptive scheduling introduces more overhead due to frequent context switching,
+whereas non-preemptive scheduling has lower overhead since context switches only happen when a process ends or waits.
+
+4. Real-World Example:
+A hospital emergency room uses preemptive scheduling, where urgent cases interrupt ongoing treatment,
+whereas a bank queue follows non-preemptive scheduling, where each customer is fully served in turn.
+
+5. Computer Example:
+Round Robin and Priority Scheduling (preemptive) are examples of preemptive techniques,
+whereas First-Come-First-Served (FCFS) and Shortest Job First (non-preemptive) use non-preemptive methods.

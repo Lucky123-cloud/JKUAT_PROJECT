@@ -1,0 +1,13 @@
+Distinguish between a page and a frame(4 marks)
+1. Page is a fixe-size block of logical(virtual) memory, whereas a Frame is a fixed-size block of physical memory(RAM)
+
+2. Pages are created by the operating system to divide virtual memory, whereas frames are created to store pages in the main memory.
+
+ Real-world analogy:
+Page = sheet of paper with content (your data or code).
+
+Frame = empty drawer in a filing cabinet where that paper is placed.
+
+💻 Computer example:
+A 4KB page from a running program is loaded into a 4KB frame in RAM.
+

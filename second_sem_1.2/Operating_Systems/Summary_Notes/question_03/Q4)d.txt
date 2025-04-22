@@ -1,0 +1,20 @@
+Explain any three methods of deadlock prevention (6 marks)
+
+1. Eliminating Hold and Wait
+Ensure that a process requests all required resources at once before it begins execution.
+🛠️ Real-world: Before baking, you gather all ingredients instead of fetching them one by one.
+💻 Computer: A program requests printer, scanner, and memory at the same time before starting.
+
+
+
+2. Eliminating No Preemption
+Allow the OS to take away a resource from a process if it's needed by another.
+🛠️ Real-world: If you're holding a community bike and someone with an emergency needs it, it’s taken and passed on.
+💻 Computer: A process holding memory may be forced to release it so another higher-priority task can use it.
+
+
+
+3. Eliminating Circular Wait
+Impose a strict order for resource allocation and force processes to request resources in that order.
+🛠️ Real-world: Everyone in a queue must ask for service in the same order: ID check → ticket → entry.
+💻 Computer: All resources are numbered, and processes must request them in increasing order.

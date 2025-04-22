@@ -1,0 +1,102 @@
+Describe any three types of scheduling (6 marks)
+
+1. First-Come, First-served (FCFS)
+Defination:
+Processes are executed in order they arrive in the ready queue. The first process to arive i sthe fist to be executed
+Think of a queue at a bank: The first person in line is served first.
+
+Advantages:
+
+Simple and easy to implement.
+
+Fair in non-preemptive situations.
+
+Disadvantages:
+
+Convoy effect: A long process at the beginning can block shorter processes.
+
+Can cause high waiting times, especially for long processes.
+
+
+2. Shortest Job First
+The process with the shortest burst time (shortest expected execution time) is executed first. This can either
+be preemptive (shorstest job arriving can preempt the current one) or non-preemptive
+
+In a print queue, the smaller print jobs (short burst times) are completed before the larger ones
+
+Advantages:
+
+Minimizes average waiting time.
+
+Optimal if burst times are known in advance.
+
+Disadvantages:
+
+Starvation: Long processes may never get executed if short processes keep arriving.
+
+Difficult to predict burst times accurately.
+
+
+3. Round Robin
+Each process is assigned a time quantum (fixed time slice), and processes
+are executed in a circular fashion. When the time quantum expires,
+the process is put back into the ready queue, and the next process gets its turn.
+
+Example:
+A group of people playing a game where each person gets a fixed amount of time to play before passing the turn.
+
+Advantages:
+
+Fair for all processes.
+
+Ideal for interactive systems with many small tasks.
+
+Disadvantages:
+
+If the time quantum is too large, it becomes similar to FCFS.
+
+If the time quantum is too small, it leads to too many context switches, causing high overhead.
+
+
+
+4. Priority Scheduling
+Definition:
+Each process is assigned a priority value. The process with the highest priority is executed first. It can be preemptive or non-preemptive.
+
+Example:
+In an emergency room, patients are treated based on the severity of their condition (priority), not the order they arrived.
+
+Advantages:
+
+Useful for real-time systems.
+
+High-priority processes are guaranteed to run sooner.
+
+Disadvantages:
+
+Starvation: Low-priority processes may never get executed.
+
+Difficult to assign and manage priorities effectively.
+
+
+
+5. Earliest Deadline First (EDF) (Real-Time Scheduling)
+Definition:
+Processes are scheduled based on their deadlines. The process with the earliest deadline is executed first. This is primarily used in real-time systems.
+
+Example:
+In a factory, tasks that need to be completed first (e.g., urgent machine maintenance) are given higher priority.
+
+Advantages:
+
+Ideal for real-time systems where tasks have strict deadlines.
+
+Minimizes the risk of missing deadlines.
+
+Disadvantages:
+
+Not suitable for systems without strict timing requirements.
+
+Can be complex to implement in non-real-time systems.
+
+

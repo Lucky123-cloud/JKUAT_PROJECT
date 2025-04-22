@@ -1,0 +1,26 @@
+Explain what swapping means and state its importance.(5 marks)
+This is a memory management technique that where inactive processes are taken from the RAM to disk and the active ones are taken from
+disk to RAM this keeps the prgramms running simultanously even though the physicall memory is full
+
+Imagine you have a desk (RAM) that’s full of documents. If you need more space,
+ you can move some papers (inactive tasks)
+ to a storage box (disk) and bring back other papers (active tasks) when needed.
+
+If you’re running multiple programs (e.g., browser, word processor, music player), swapping helps when the RAM is full. If the word processor
+isn’t being used actively, the OS may swap it to disk to free up RAM for the browser.
+
+
+importance Of swapping:
+
+1. Efficient memory use:  Allows the OS to run more processes than the available RAM by swapping out less critical processes.
+
+2. Prevents system Crashes - Helps avoid crashes when memory is fully utilized by temporarily moving data to disk.
+
+3. Improved multitasking - Enables smoother multitasking by managing memory more flexibly.
+
+4. Enables running large Applications: Swapping allows large applications that need more memory than the system’s RAM
+ can handle to run by temporarily offloading less critical data to the disk.
+
+
+
+

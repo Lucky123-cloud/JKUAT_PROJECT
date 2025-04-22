@@ -1,0 +1,21 @@
+Explain the meaning of the following terms(10marks)
+
+i) Multi programming - This is when the OS keeps two or more programms in the memory
+and switches between them so that CPU doesn't stay idle.
+This way, while one program is waiting (like for user input or a file), another can use the CPU — making better use of system resources.
+
+ii) Deadlock - Is a situation when two or more processes, block each other by holding resources
+that the other needs, and none can move forward
+Deadlock is a situation in an operating system where two or more processes are stuck waiting for each other forever, and none can continue.
+
+iii) Mutual Exclusion - means only one process at a time, can access a shared resource(like a file, variable, or printer) to prevent conflicts or errors.
+Mutual Exclusion ensures that when one process is using a shared resource, others are blocked from using it at the same time.
+
+iv) Remote Procedure Call - Is a protocol that allows a process to execute a prodecure(function) on a remote system
+as if it were a local call.
+RPC helps processes on different computers communicate and work together, while making it look like they're just calling local functions.
+Remote Procedure Call (RPC) is a way for a program to call a function on another computer as if it were calling a local function.
+RPC lets a program run code on another machine without worrying about the network details — it feels like a normal function call.
+
+v) Buffer overflow - Happens when a program writes more data into buffer(temporary storage) than it can hold, spilling into nearby memory which can cause
+overriding of that memory
