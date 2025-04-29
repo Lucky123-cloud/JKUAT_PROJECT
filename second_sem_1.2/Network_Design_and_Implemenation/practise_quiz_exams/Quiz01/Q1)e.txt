@@ -1,0 +1,58 @@
+Describe the activities carried out during computer network/implementation
+
+
+Activities Carried Out During Computer Network Implementation
+==============================================================
+
+Computer network implementation involves several key activities that ensure the network is properly designed, installed, configured, and maintained. These activities are critical for achieving a functional and efficient networking system.
+
+Main Activities:
+----------------
+
+1. Requirement Analysis
+   - Identify the purpose and goals of the network.
+   - Gather information about the number of users, types of devices, applications, and expected network traffic.
+   - Understand security, scalability, and performance needs.
+
+2. Network Design
+   - Create a logical and physical network design.
+   - Decide on network topology (e.g., star, mesh, bus).
+   - Choose network hardware (routers, switches, access points, cables).
+   - Plan IP addressing scheme (e.g., static or dynamic IP, subnetting).
+
+3. Budgeting and Planning
+   - Estimate the cost of hardware, software, and installation.
+   - Plan a timeline for each stage of the network setup.
+   - Assign roles and responsibilities for the implementation team.
+
+4. Hardware and Software Acquisition
+   - Purchase network devices and necessary software licenses.
+   - Ensure all equipment meets the specifications outlined in the network design.
+
+5. Installation and Configuration
+   - Install physical devices like switches, routers, cables, and access points.
+   - Configure network devices with correct IP addresses, routing protocols, security settings, and access controls.
+   - Set up servers, firewalls, and other critical network services.
+
+6. Testing and Troubleshooting
+   - Test each part of the network to ensure it is working correctly.
+   - Identify and fix any hardware or configuration issues.
+   - Test performance metrics like speed, connectivity, and security.
+
+7. Documentation
+   - Document network design, IP address schemes, hardware configurations, and user guidelines.
+   - Maintain records for future maintenance and troubleshooting.
+
+8. Training and Handover
+   - Train the network users and administrators on how to use and maintain the network.
+   - Provide manuals, support documents, and emergency contacts.
+
+9. Monitoring and Maintenance
+   - Continuously monitor the network for any issues.
+   - Update software and firmware regularly.
+   - Perform routine maintenance to ensure optimal performance and security.
+
+Summary:
+--------
+
+Computer network implementation involves a structured process from initial analysis and design to installation, testing, documentation, and ongoing maintenance. Each step is crucial for building a reliable, secure, and scalable network that meets the needs of users and the organization.

@@ -1,0 +1,113 @@
+Describe any 3 topologies, and in each add 2 advantages and disadvantages
+
+===============================
+      NETWORK TOPOLOGIES      
+===============================
+
+1. BUS TOPOLOGY
+----------------
+Description:
+- All devices are connected to a single central cable (bus).
+- Data travels in both directions; only the target device accepts it.
+
+Advantages:
++ Cost-effective – requires less cabling.
++ Easy to set up for small networks.
+
+Disadvantages:
+- Performance drops as devices increase.
+- Failure in the main cable affects the whole network.
+
+--------------------------------
+
+2. STAR TOPOLOGY
+----------------
+Description:
+- All devices are connected to a central hub or switch.
+- Data goes through the hub before reaching the destination.
+
+Advantages:
++ Easy to troubleshoot and manage.
++ Devices can be added/removed easily.
+
+Disadvantages:
+- Hub is a single point of failure.
+- More cabling increases setup cost.
+
+--------------------------------
+
+3. RING TOPOLOGY
+----------------
+Description:
+- Devices are connected in a closed loop.
+- Data travels in one direction (or both in dual ring).
+
+Advantages:
++ No data collisions.
++ Predictable data flow.
+
+Disadvantages:
+- Break in the ring disables the whole network.
+- Adding/removing devices can disrupt the ring.
+
+--------------------------------
+
+4. MESH TOPOLOGY
+----------------
+Description:
+- Each device is connected to every other device (full or partial mesh).
+- Provides multiple paths for data transmission.
+
+Advantages:
++ High fault tolerance and reliability.
++ Robust data delivery through redundant paths.
+
+Disadvantages:
+- Expensive due to cabling.
+- Difficult to set up and maintain.
+
+--------------------------------
+
+5. TREE TOPOLOGY (HIERARCHICAL)
+-------------------------------
+Description:
+- Hybrid of star and bus topologies.
+- Devices are arranged in a hierarchy with branches.
+
+Advantages:
++ Scalable and organized.
++ Easy to manage different network sections.
+
+Disadvantages:
+- Backbone failure can impact the network.
+- Uses more cabling than bus topology.
+
+--------------------------------
+
+6. HYBRID TOPOLOGY
+------------------
+Description:
+- Combination of two or more topologies (e.g., star + mesh).
+
+Advantages:
++ Highly flexible and scalable.
++ Fault in one section doesn’t affect the entire network.
+
+Disadvantages:
+- Complex configuration.
+- Higher cost due to multiple technologies.
+
+--------------------------------
+
+SUMMARY TABLE
+=============
+
+| Topology  | Advantages                            | Disadvantages                             |
+|-----------|----------------------------------------|--------------------------------------------|
+| Bus       | Simple, low cost                       | Limited scalability, cable failure fatal   |
+| Star      | Easy to manage, scalable               | Hub failure disrupts all, cabling cost     |
+| Ring      | No collisions, predictable flow        | One failure breaks the loop, not scalable  |
+| Mesh      | High reliability, redundant paths      | Very expensive, hard to maintain           |
+| Tree      | Structured and scalable                | Backbone failure, high cabling cost        |
+| Hybrid    | Flexible, section-isolated failures    | Complex and expensive                      |
+

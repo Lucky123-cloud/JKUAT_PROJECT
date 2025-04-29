@@ -1,0 +1,39 @@
+i) Distinguish between cross-over cable and straight-through cable:
+
+straight-through cables are cables used to different types of devices(eg. computer to router) whereas 
+cross-over cables are used to connect similar types of devices.
+
+Topic:
+Network Cabling — Ethernet Cable Types (Straight-through vs Cross-over cables)
+
+Answer:
+
+Aspect: Straight-through Cable vs Cross-over Cable
+
+Definition:
+- Straight-through Cable: A cable that connects different types of devices (e.g., computer to switch, router to switch) by keeping the wiring order the same on both ends.
+- Cross-over Cable: A cable that connects similar types of devices (e.g., computer to computer, switch to switch) by crossing over the transmit and receive pairs.
+
+Wiring Configuration:
+- Straight-through Cable: Pin 1 connects to Pin 1, Pin 2 to Pin 2, and so on. (Same order at both ends, usually T568A-T568A or T568B-T568B.)
+- Cross-over Cable: The send and receive wires are crossed. (One end wired T568A, other end T568B.)
+
+Typical Use:
+- Straight-through Cable: 
+  - PC to Switch/Hub
+  - Router to Switch
+  - PC to Modem
+- Cross-over Cable:
+  - PC to PC
+  - Switch to Switch (older switches)
+  - Router to Router (without uplink port)
+
+Modern Relevance:
+- Straight-through Cable: Still used, though modern devices often support "auto-MDI/MDIX," which can automatically adjust.
+- Cross-over Cable: Less common today because of auto-sensing ports, but still important to know for manual setups or older devices.
+
+Simple Trick to Remember:
+- Straight-through = Different devices
+- Cross-over = Same devices
+
+

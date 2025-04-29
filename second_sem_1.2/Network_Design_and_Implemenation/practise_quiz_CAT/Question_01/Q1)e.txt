@@ -1,0 +1,88 @@
+=============================================================================
+QUESTION: What is an IP Datagram Format? Describe using a detailed diagram.
+=============================================================================
+
+DEFINITION:
+-----------
+An IP datagram is the basic unit of information that is transferred across 
+an IP network. It contains both control information and the actual data being sent. 
+It is used in the Internet Protocol (IP) for packet-switched communication.
+
+The IP datagram format is defined in the IPv4 protocol, and it includes several 
+fields that carry essential information for routing, delivery, and error checking.
+
+=======================================================
+STRUCTURE OF AN IPv4 DATAGRAM (TEXT DIAGRAM)
+=======================================================
+
+  0                   1                   2                   3  
+  0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ | Version | IHL | Type of Service |        Total Length         |
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ |         Identification          | Flags |   Fragment Offset   |
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ |  Time to Live |    Protocol     |       Header Checksum       |
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ |                     Source IP Address                         |
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ |                   Destination IP Address                      |
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ |                    Options (if any)                           |
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ |                          Data                                 |
+ |                      (Payload)                                |
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+=======================================================
+DESCRIPTION OF MAIN FIELDS
+=======================================================
+
+1. **Version (4 bits)**:
+   - IP version (usually 4 for IPv4).
+
+2. **IHL - Internet Header Length (4 bits)**:
+   - Length of the IP header in 32-bit words.
+
+3. **Type of Service (8 bits)**:
+   - Indicates service quality (priority, delay, throughput, reliability).
+
+4. **Total Length (16 bits)**:
+   - Entire packet size including header and data (max 65,535 bytes).
+
+5. **Identification (16 bits)**:
+   - Unique ID for fragment reassembly.
+
+6. **Flags (3 bits)**:
+   - Controls fragmentation; e.g., "Don't Fragment" flag.
+
+7. **Fragment Offset (13 bits)**:
+   - Position of the fragment in the original datagram.
+
+8. **Time to Live - TTL (8 bits)**:
+   - Limits lifespan of packet to avoid infinite loops.
+
+9. **Protocol (8 bits)**:
+   - Specifies the next-level protocol (e.g., TCP = 6, UDP = 17).
+
+10. **Header Checksum (16 bits)**:
+    - Error-checking for the IP header.
+
+11. **Source IP Address (32 bits)**:
+    - IP address of the sender.
+
+12. **Destination IP Address (32 bits)**:
+    - IP address of the receiver.
+
+13. **Options (if any) (variable length)**:
+    - Optional fields for advanced features like security, timestamp, etc.
+
+14. **Data (Payload) (variable length)**:
+    - Actual data being carried (e.g., TCP segment, UDP datagram, etc.)
+
+=======================================================
+SUMMARY:
+- The IP datagram allows for efficient and flexible communication in IP networks.
+- Its structured format ensures delivery, reassembly, and protocol compatibility.
+=======================================================
+

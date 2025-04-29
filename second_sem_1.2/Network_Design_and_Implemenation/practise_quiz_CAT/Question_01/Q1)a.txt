@@ -1,0 +1,12 @@
+Define the term network and show three advantages in organization 
+
+Network is a system of interconnection of computers, systems or nodes with the goal of 
+providing communication to each other and resource sharing like file sharing and internet access
+
+The imporatance include:
+- Enables communication
+- Resource sharing
+- Remote access and flexibilty
+- Centralized Data management
+- Easier Data Backups and recovery
+- Cost Effectiveness through sharing of resources and software linsences

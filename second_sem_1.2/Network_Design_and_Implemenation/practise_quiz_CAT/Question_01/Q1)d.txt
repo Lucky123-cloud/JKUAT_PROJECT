@@ -1,0 +1,60 @@
+=============================================================================
+QUESTION: What is a Network Address? Illustrate the distinction between a 
+          Physical and Logical Address.
+=============================================================================
+
+DEFINITION:
+-----------
+A network address is a unique identifier used to locate a device within a network. 
+It helps in identifying and communicating with devices (computers, printers, routers, etc.) 
+over a network, either locally or over the internet.
+
+There are two main types of network addresses: 
+1. Physical Address
+2. Logical Address
+
+-------------------------------------------------------------
+1. PHYSICAL ADDRESS (also known as MAC Address)
+-------------------------------------------------------------
+- A hardware-based address assigned to a network interface card (NIC) by the manufacturer.
+- It is **burned into** the NIC and is **unique** worldwide.
+- Represented in hexadecimal format (e.g., 00:1A:2B:3C:4D:5E).
+- Operates at the **Data Link Layer (Layer 2)** of the OSI model.
+
+Example:
+  MAC Address: 3C:52:82:0A:62:1B
+
+Advantages:
++ Unique to each device.
++ Used for communication within the local network (LAN).
+
+-------------------------------------------------------------
+2. LOGICAL ADDRESS (also known as IP Address)
+-------------------------------------------------------------
+- A software-based address assigned by a network administrator or dynamically by DHCP.
+- Can change based on the network the device connects to.
+- Represented in dotted decimal format for IPv4 (e.g., 192.168.1.1) or colon-hexadecimal for IPv6.
+- Operates at the **Network Layer (Layer 3)** of the OSI model.
+
+Example:
+  IPv4 Address: 192.168.0.10
+  IPv6 Address: fe80::1f7c:fea6:1c23:4e5f
+
+Advantages:
++ Enables global identification and routing over the internet.
++ Can be configured or reassigned based on network requirements.
+
+-------------------------------------------------------------
+KEY DIFFERENCES: PHYSICAL vs LOGICAL ADDRESS
+-------------------------------------------------------------
+
+| Feature             | Physical Address (MAC)         | Logical Address (IP)                |
+|---------------------|--------------------------------|-------------------------------------|
+| Nature              | Hardware-based                 | Software-based                      |
+| Uniqueness          | Globally unique                | Can be reassigned                   |
+| Layer               | Data Link Layer (Layer 2)      | Network Layer (Layer 3)             |
+| Format              | Hexadecimal (e.g., 00:1A:...)  | Decimal (IPv4) / Hex (IPv6)         |
+| Addressing Type     | Local (LAN) communication      | Global (Internet) communication     |
+| Changeability       | Fixed (unless manually changed)| Changeable (dynamic or static)      |
+
+=============================================================================

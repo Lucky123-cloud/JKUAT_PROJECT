@@ -1,0 +1,93 @@
+=============================================================================
+QUESTION: Discuss the implementation of the following signal encoding schemes:
+           i) Manchester Encoding
+           ii) Non-Return to Zero Inverted (NRZ-I)
+=============================================================================
+
+=============================================================================
+i) MANCHESTER ENCODING
+=============================================================================
+
+Definition:
+------------
+Manchester encoding is a **synchronous** clock encoding technique in which each data bit has a transition at the middle of the bit period.
+It combines clock and data into a single signal to ensure synchronization.
+
+Implementation:
+----------------
+- A logical '0' is represented by a **high-to-low** transition in the middle of the bit.
+- A logical '1' is represented by a **low-to-high** transition in the middle of the bit.
+- Each bit has a guaranteed transition which helps with **clock recovery** on the receiver side.
+- It is widely used in Ethernet (IEEE 802.3) and RFID communication.
+
+Example:
+---------
+If we want to send the binary sequence: `1010`  
+The Manchester encoded signal will be:
+
+- 1 → low-to-high
+- 0 → high-to-low
+- 1 → low-to-high
+- 0 → high-to-low
+
+This creates a consistent waveform with transitions in every bit period.
+
+Advantages:
+-----------
++ Synchronization is easier due to mid-bit transitions.
++ Error detection is more reliable.
+
+Disadvantages:
+---------------
+- Bandwidth consumption is high (double the original data rate).
+
+=============================================================================
+ii) NON-RETURN TO ZERO INVERTED (NRZ-I)
+=============================================================================
+
+Definition:
+------------
+NRZ-I is a **binary encoding scheme** where a change in voltage level (transition) indicates a binary '1', and no change indicates a binary '0'. It is a variation of the Non-Return to Zero (NRZ) encoding.
+
+Implementation:
+----------------
+- A logical '1' is represented by a **change** in the signal level (either from high to low or low to high).
+- A logical '0' is represented by **no change** in the signal level.
+- The signal level itself does not represent the bit directly — it’s the **transition** that matters.
+
+Example:
+---------
+Initial signal state: LOW  
+Data: `100110`
+
+NRZ-I signal:
+- 1 → transition (LOW → HIGH)
+- 0 → no change (remains HIGH)
+- 0 → no change (remains HIGH)
+- 1 → transition (HIGH → LOW)
+- 1 → transition (LOW → HIGH)
+- 0 → no change (remains HIGH)
+
+Advantages:
+-----------
++ Better synchronization than NRZ-L because transitions indicate ‘1’.
++ Suitable for systems where polarity reversals are common.
+
+Disadvantages:
+---------------
+- Long sequences of 0s can cause synchronization loss due to no transitions.
+- Requires extra techniques (e.g., bit stuffing) to ensure clock recovery.
+
+=============================================================================
+SUMMARY COMPARISON
+=============================================================================
+
+| Feature                | Manchester             | NRZ-I                        |
+|------------------------|------------------------|------------------------------|
+| Encoding Type          | Clock + Data Combined  | Data only (Inverted logic)  |
+| Transition for '1'     | Low to High            | Level change                 |
+| Transition for '0'     | High to Low            | No change                    |
+| Bandwidth Efficiency   | Low (uses more bandwidth) | High                        |
+| Clock Synchronization  | Excellent              | Moderate (depends on data)  |
+
+=============================================================================

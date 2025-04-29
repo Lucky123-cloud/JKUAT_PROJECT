@@ -1,0 +1,103 @@
+Topic:
+Network Cabling (under Network Design and Implementation)
+
+Answer:
+
+Network Cabling: General Overview
+Network Cabling is the backbone of any physical network. It refers to the physical media (wires and cables) used to connect devices like computers, switches, routers, and servers.
+
+Good cabling ensures:
+- Fast communication
+- Minimal data loss
+- Reliable performance
+- Easy troubleshooting
+
+1. Why is Network Cabling Important?
+- It determines the speed and capacity of a network.
+- It affects network reliability.
+- It influences future scalability.
+- It defines the topology — how devices are physically arranged.
+
+2. Types of Network Cables
+
+a) Twisted Pair Cables (Most Common)
+- Used in LANs (Local Area Networks).
+- Wires twisted in pairs to reduce electromagnetic interference.
+
+Two types:
+- UTP (Unshielded Twisted Pair): Cheaper, used in most offices and homes.
+- STP (Shielded Twisted Pair): Shielded against external interference, used in environments with lots of electrical noise.
+
+Common categories:
+- Cat5e (up to 1 Gbps)
+- Cat6 (up to 10 Gbps)
+- Cat6a, Cat7, Cat8 (even higher speeds)
+
+b) Coaxial Cable
+- Older type, still used in cable TV and some internet services.
+- Single copper core surrounded by insulation and shielding.
+- Rare in modern LANs but still important for some WANs.
+
+c) Fiber Optic Cable
+- Super high-speed transmission using light (not electricity).
+- Two types:
+  - Single-mode fiber (SMF) – long-distance, like between cities.
+  - Multi-mode fiber (MMF) – short-distance, like inside buildings.
+- Used where:
+  - High bandwidth is needed
+  - Very long distances are involved
+  - Electrical interference must be avoided
+
+3. Ethernet Cable Standards (for Twisted Pair)
+
+- Straight-through cable: Same wiring at both ends. Used to connect different types of devices (e.g., computer to switch).
+- Cross-over cable: Wires are crossed. Used to connect similar types of devices (e.g., computer to computer).
+
+Wiring standards:
+- T568A and T568B are the two common pinout standards.
+- Straight-through uses the same standard on both ends.
+- Cross-over uses different standards on each end.
+
+4. Cable Connectors
+
+- RJ-45: Common connector for twisted-pair Ethernet cables.
+- RJ-11: Used for telephones, not networking.
+- LC, SC, ST connectors: Used for fiber optic cables.
+
+5. Cable Length Limits
+
+- Twisted pair (Cat5e/Cat6): Maximum length 100 meters (328 feet).
+- Fiber optic: Can run several kilometers depending on type.
+
+If you exceed the limits:
+- Signal weakens (attenuation).
+- Data loss and errors increase.
+
+6. Common Problems in Network Cabling
+
+- Crosstalk: Interference between adjacent wires.
+- Attenuation: Signal loss over distance.
+- Noise: External electrical signals interfering with transmission.
+- Poor installation: Loose connections, bent cables, wrong standards.
+
+Proper installation and testing prevent these.
+
+7. Network Cable Testing Tools
+
+- Cable Tester: Checks if cables are wired correctly.
+- Toner and Probe: Helps find cable paths.
+- Time Domain Reflectometer (TDR): Advanced tool to find faults.
+
+8. Best Practices in Network Cabling
+
+- Follow standards (like TIA/EIA standards for structured cabling).
+- Label cables clearly.
+- Avoid sharp bends and physical damage.
+- Use proper cable management (trays, ties, racks).
+- Plan for future expansion.
+
+Conclusion:
+
+Network cabling may seem simple, but it is critical for a fast, reliable, scalable network. Without good cabling, even expensive devices (routers, switches, servers) cannot perform properly.
+
+When designing a network, always start with solid cabling planning, because fixing bad cables later is painful and expensive.

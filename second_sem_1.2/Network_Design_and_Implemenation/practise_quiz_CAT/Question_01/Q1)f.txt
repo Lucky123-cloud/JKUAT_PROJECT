@@ -1,0 +1,153 @@
+=============================================================================
+QUESTION: Outline any five network protocols and describe their operation.
+=============================================================================
+
+A network protocol is a set of rules and conventions that govern how data is 
+transmitted and received over a network. These protocols ensure reliable, 
+secure, and efficient communication between devices.
+
+Below are five important network protocols and their operations:
+
+=======================================================
+1. TRANSMISSION CONTROL PROTOCOL (TCP)
+=======================================================
+
+Full Name: Transmission Control Protocol  
+Layer: Transport Layer (OSI Layer 4)
+
+Operation:
+-----------
+- TCP is a **connection-oriented** protocol that ensures reliable data delivery.
+- Before data is sent, a connection is established through a process known as the **three-way handshake**.
+- Data is broken into segments, each acknowledged by the receiver.
+- If a segment is lost, TCP retransmits it.
+- At the end of transmission, the connection is properly terminated.
+
+Key Features:
++ Reliable and ordered delivery
++ Error checking and recovery
++ Flow control and congestion avoidance
+
+Use Cases:
+- Web browsing (HTTP/HTTPS)
+- Email (SMTP, IMAP)
+- File transfer (FTP)
+
+-------------------------------------------------------
+
+=======================================================
+2. USER DATAGRAM PROTOCOL (UDP)
+=======================================================
+
+Full Name: User Datagram Protocol  
+Layer: Transport Layer (OSI Layer 4)
+
+Operation:
+-----------
+- UDP is a **connectionless** protocol used for fast, lightweight communication.
+- It sends datagrams without establishing a connection.
+- There is **no guarantee** of delivery, order, or error correction.
+- Minimal overhead makes it ideal for real-time applications.
+
+Key Features:
++ Low latency
++ No connection setup
++ Efficient for broadcasting
+
+Use Cases:
+- Video streaming
+- Online gaming
+- Voice over IP (VoIP)
+
+-------------------------------------------------------
+
+=======================================================
+3. HYPERTEXT TRANSFER PROTOCOL (HTTP)
+=======================================================
+
+Full Name: Hypertext Transfer Protocol  
+Layer: Application Layer (OSI Layer 7)
+
+Operation:
+-----------
+- HTTP is used for **transferring web content** between a web server and a client (browser).
+- It operates on a **request-response** model.
+- The client sends an HTTP request (e.g., GET, POST), and the server responds with the requested data.
+- HTTP uses TCP as its transport layer protocol.
+
+Key Features:
++ Stateless communication
++ Supports multimedia and interactive content
++ Works over port 80 (HTTP) and port 443 (HTTPS - secure version)
+
+Use Cases:
+- Loading web pages
+- RESTful APIs
+- Browsing multimedia content
+
+-------------------------------------------------------
+
+=======================================================
+4. FILE TRANSFER PROTOCOL (FTP)
+=======================================================
+
+Full Name: File Transfer Protocol  
+Layer: Application Layer (OSI Layer 7)
+
+Operation:
+-----------
+- FTP is used to **transfer files** between computers on a network.
+- It requires a client and a server connection.
+- Supports authentication (username and password).
+- Data is transferred in plain text unless FTPS/SFTP is used.
+
+Key Features:
++ Allows uploading and downloading of files
++ Directory navigation and file management
++ Can use TCP port 21 (control) and port 20 (data)
+
+Use Cases:
+- Website file upload/download
+- Backup systems
+- Internal file sharing systems
+
+-------------------------------------------------------
+
+=======================================================
+5. SIMPLE MAIL TRANSFER PROTOCOL (SMTP)
+=======================================================
+
+Full Name: Simple Mail Transfer Protocol  
+Layer: Application Layer (OSI Layer 7)
+
+Operation:
+-----------
+- SMTP is used for **sending and forwarding emails** between mail servers.
+- It operates over TCP and handles only outgoing mail.
+- Works in conjunction with POP3/IMAP for retrieving mail.
+
+Key Features:
++ Ensures delivery of email to the correct server
++ Works over port 25 (or 587 for secure mail submission)
++ Can be used by email clients and servers
+
+Use Cases:
+- Sending emails from client to server
+- Relaying emails between servers
+- Automated notification systems
+
+-------------------------------------------------------
+
+=======================================================
+SUMMARY TABLE
+=======================================================
+
+| Protocol | Layer         | Type             | Key Use Cases                      |
+|----------|---------------|------------------|------------------------------------|
+| TCP      | Transport     | Connection-based | Web, email, file transfer          |
+| UDP      | Transport     | Connectionless   | Gaming, streaming, VoIP            |
+| HTTP     | Application   | Request-response | Browsing, web apps, APIs           |
+| FTP      | Application   | File transfer    | Upload/download of files           |
+| SMTP     | Application   | Mail delivery    | Sending email                      |
+
+=============================================================================

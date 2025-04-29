@@ -1,0 +1,32 @@
+Describe any 2 network models and its implementation
+
+Network models are used to define how data is structured, transfered, and managed btwn devices in a network.
+The two models are
+- OSI Model - Open System Interconnection (conceptual model)
+- TCP/IP Model - Transmission Control Protocols/Internet Protocols (practical)
+
+Implementation of Open System Interconnection(OSI)
+======================================================
+7. Application - End user services eg browsers, applications
+6. Presentation - Translation, encryption and compression of data
+5. Session - manages sessions and connections. Open and closes sessions
+4. Transport - Movement of Data/reliable Data transfer (eg TCP)
+3. Network - Routing of data (eg IP)
+2. Data link - MAC addressing and error detection
+1. Physical - Hardware Transmission, (cables and signals)
+
+- Mainly used in educational and troubleshooting purposes
+- Shows how data is worked on in different layers
+- provides a clear understanding of how network fucntions in different layers
+- Helps in identifying and solving network problems
+
+Implementation of Transmission Control Protocol/ Internet Protocol
+=====================================================================
+4. Application  7, 6, 5(OSI) - Used for end user application eg email, file transfer, browsing
+3. Transport    4            - reliable/unreliable Data tranfer and delivery(TCP/UDP)
+2. Internet     3            - Logical addressing and Routing
+1. Network Access 2, 1       - Physical Data Transmsion
+
+- used in all modern networks, including the internet
+- Governs protocols like HTTP, FTP, TCP, IP, DNS, SMTP
+-They are practical in nature
