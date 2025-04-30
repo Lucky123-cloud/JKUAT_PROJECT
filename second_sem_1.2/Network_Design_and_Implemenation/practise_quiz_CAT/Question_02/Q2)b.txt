@@ -1,0 +1,61 @@
+=============================================================================
+QUESTION: Explain the process of a mobile-initiated call.
+=============================================================================
+
+=============================================================================
+PROCESS OF A MOBILE-INITIATED CALL
+=============================================================================
+
+A mobile-initiated call refers to the sequence of operations that occur when a mobile phone (Mobile Station - MS) 
+initiates a call to another user, whether mobile or landline. This process involves several components of the mobile communication system.
+
+=============================================================================
+STEPS IN A MOBILE-INITIATED CALL
+=============================================================================
+
+1. **Dialing the Number**
+   - The user enters the phone number and presses the call button.
+   - The mobile device sends a call setup request to the Base Transceiver Station (BTS).
+
+2. **Access Request and Authentication**
+   - The MS sends a channel request through the Random Access Channel (RACH).
+   - The Base Station Controller (BSC) allocates a dedicated signaling channel.
+   - The Mobile Switching Center (MSC) performs authentication using the SIM credentials.
+
+3. **Location Update (if required)**
+   - If the mobile has moved into a new location area, the MSC updates its location in the Home Location Register (HLR) and/or Visitor Location Register (VLR).
+
+4. **Call Setup**
+   - The MSC verifies the number dialed and checks routing details.
+   - It initiates a connection to the called party via PSTN or another mobile network.
+   - It also sets up the voice channel between the caller and the base station.
+
+5. **Call Alerting**
+   - The called party is alerted (phone rings).
+   - If the called party answers, a voice path is established between the two users.
+
+6. **Conversation**
+   - Once the call is connected, the users can exchange voice data over the allocated channel.
+
+7. **Call Termination**
+   - When either user ends the call, the resources (channels, switching paths) are released.
+   - The call record may be stored for billing purposes.
+
+=============================================================================
+COMPONENTS INVOLVED
+=============================================================================
+
+- **MS** – Mobile Station (user's phone)
+- **BTS** – Base Transceiver Station (antenna system)
+- **BSC** – Base Station Controller (manages BTS)
+- **MSC** – Mobile Switching Center (central controller)
+- **HLR/VLR** – Location databases
+- **PSTN** – Public Switched Telephone Network (for landline calls)
+
+=============================================================================
+SUMMARY
+=============================================================================
+
+In a mobile-initiated call, the phone sends a call request to the network. The network verifies the user's identity, finds the destination, and establishes the connection via base stations and switching centers. Once the call ends, resources are released and billing records are created if needed.
+
+=============================================================================

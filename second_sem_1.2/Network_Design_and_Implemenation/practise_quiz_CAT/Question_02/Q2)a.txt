@@ -1,0 +1,77 @@
+=============================================================================
+QUESTION: Describe the principle of wireless communication and show the two 
+           design considerations.
+=============================================================================
+
+=============================================================================
+PRINCIPLE OF WIRELESS COMMUNICATION
+=============================================================================
+
+Wireless communication is the transfer of information between two or more points 
+that are not connected by an electrical conductor (i.e., without physical wires). 
+It uses electromagnetic waves, such as radio waves, to carry signals over the air.
+
+Key Principle:
+---------------
+Wireless communication systems rely on the **transmission and reception of 
+electromagnetic signals** through the air.
+
+Basic Steps in Wireless Communication:
+---------------------------------------
+1. **Transmission** – The sender converts the data into an electrical signal.
+2. **Modulation** – The signal is modulated (combined) with a carrier wave.
+3. **Propagation** – The modulated signal is transmitted over a wireless medium.
+4. **Reception** – The receiver captures the signal using an antenna.
+5. **Demodulation** – The carrier wave is removed to retrieve the original signal.
+6. **Decoding** – The received data is decoded and presented in usable form.
+
+Examples of Wireless Communication:
+-----------------------------------
+- Wi-Fi (IEEE 802.11)
+- Bluetooth
+- Mobile networks (3G, 4G, 5G)
+- Satellite communication
+- Radio and Television broadcasting
+
+=============================================================================
+TWO DESIGN CONSIDERATIONS IN WIRELESS COMMUNICATION
+=============================================================================
+
+=======================================================
+1. FREQUENCY SELECTION
+=======================================================
+Description:
+- Frequency determines how far and how fast a signal can travel.
+- Different frequencies have different propagation characteristics.
+
+Considerations:
++ Lower frequencies (e.g., below 1 GHz) travel farther and penetrate obstacles better.
++ Higher frequencies (e.g., 2.4 GHz, 5 GHz) support higher data rates but are more easily absorbed by walls and obstacles.
+
+Impact:
+- Must balance between coverage area and data rate depending on the application (e.g., rural vs. urban).
+
+=======================================================
+2. POWER CONSUMPTION
+=======================================================
+Description:
+- Wireless devices are often battery-powered, especially in mobile and IoT devices.
+
+Considerations:
++ Lower power usage extends device life and reduces heat.
++ Higher power may be needed for long-range transmission or overcoming interference.
+
+Impact:
+- Must optimize hardware and software to balance performance with battery life.
+- Protocols like Bluetooth Low Energy (BLE) are designed with this in mind.
+
+=============================================================================
+SUMMARY
+=============================================================================
+
+Wireless communication allows the exchange of information without physical 
+connections, using electromagnetic waves. Effective system design requires careful 
+consideration of frequency usage and power consumption to ensure reliable, 
+efficient, and sustainable operation.
+
+=============================================================================

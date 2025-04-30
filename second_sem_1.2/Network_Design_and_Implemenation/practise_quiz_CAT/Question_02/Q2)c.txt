@@ -1,0 +1,129 @@
+=============================================================================
+QUESTION: Discuss the implementation of the following signal encoding schemes:
+           i) NRZ-L
+           ii) ASK
+           iii) PSK
+           iv) FSK
+=============================================================================
+
+=============================================================================
+i) NON-RETURN TO ZERO LEVEL (NRZ-L)
+=============================================================================
+
+Definition:
+------------
+NRZ-L (Non-Return to Zero-Level) is a binary encoding technique where the voltage
+level of the signal is directly related to the bit value being transmitted.
+
+Implementation:
+----------------
+- A logical '1' is represented by a **high voltage level**.
+- A logical '0' is represented by a **low voltage level** (or vice versa, depending on convention).
+- The signal level remains constant during the bit interval.
+- There is **no neutral or rest state** between bits.
+
+Advantages:
+-----------
++ Simple to implement.
++ Requires less bandwidth than some other line coding techniques.
+
+Disadvantages:
+---------------
+- Long sequences of identical bits cause synchronization issues.
+- No inherent error detection.
+
+=============================================================================
+ii) AMPLITUDE SHIFT KEYING (ASK)
+=============================================================================
+
+Definition:
+------------
+ASK is a digital modulation technique where the **amplitude** of the carrier wave 
+is varied in accordance with the digital data being transmitted.
+
+Implementation:
+----------------
+- A binary '1' is transmitted using a **high amplitude carrier**.
+- A binary '0' is transmitted using a **low (or zero) amplitude carrier**.
+- The frequency and phase of the carrier remain constant.
+
+Advantages:
+-----------
++ Simple and easy to implement.
++ Effective for low-bandwidth applications.
+
+Disadvantages:
+---------------
+- Highly susceptible to noise and interference.
+- Not suitable for high-speed communication.
+
+=============================================================================
+iii) PHASE SHIFT KEYING (PSK)
+=============================================================================
+
+Definition:
+------------
+PSK is a digital modulation technique in which the **phase** of the carrier signal 
+is changed to represent digital data.
+
+Implementation:
+----------------
+- Common types include BPSK (Binary Phase Shift Keying), QPSK (Quadrature PSK), etc.
+- In BPSK:
+   * Binary '0' → 0° phase
+   * Binary '1' → 180° phase
+- In QPSK:
+   * Each symbol represents 2 bits using 4 distinct phases (e.g., 0°, 90°, 180°, 270°).
+
+Advantages:
+-----------
++ More noise resistant than ASK.
++ Higher bandwidth efficiency (especially QPSK).
+
+Disadvantages:
+---------------
+- More complex to implement (requires accurate phase synchronization).
+- Susceptible to phase jitter.
+
+=============================================================================
+iv) FREQUENCY SHIFT KEYING (FSK)
+=============================================================================
+
+Definition:
+------------
+FSK is a digital modulation technique in which the **frequency** of the carrier 
+signal is changed to represent digital data.
+
+Implementation:
+----------------
+- A binary '1' is represented by a **higher frequency** carrier.
+- A binary '0' is represented by a **lower frequency** carrier.
+- The amplitude remains constant throughout.
+
+Types:
+-------
+- BFSK (Binary FSK) for 2 frequencies.
+- MFSK (Multiple FSK) for more symbols.
+
+Advantages:
+-----------
++ More noise-resistant than ASK.
++ Suitable for radio communication.
+
+Disadvantages:
+---------------
+- Requires more bandwidth than ASK and PSK.
+- More complex transmitter and receiver design.
+
+=============================================================================
+SUMMARY COMPARISON
+=============================================================================
+
+| Encoding Scheme | Signal Parameter Changed | Noise Resistance | Complexity |
+|-----------------|--------------------------|------------------|------------|
+| NRZ-L           | Voltage Level            | Low              | Low        |
+| ASK             | Amplitude                | Low              | Low        |
+| PSK             | Phase                    | Medium-High      | Medium     |
+| FSK             | Frequency                | High             | Medium     |
+
+=============================================================================

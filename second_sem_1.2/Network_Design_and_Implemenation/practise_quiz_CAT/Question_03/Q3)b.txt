@@ -1,0 +1,49 @@
+=============================================================================
+QUESTION: Define the term protocol and identify any four protocols in any of the TCP/IP model.
+=============================================================================
+
+=============================================================================
+DEFINITION OF PROTOCOL
+=============================================================================
+
+A **protocol** is a set of rules and conventions that define how data is transmitted
+and received across a network. These rules govern communication between devices,
+ensuring data is properly formatted, transmitted, acknowledged, and interpreted.
+
+In networking, protocols ensure reliable and standardized communication between
+different hardware and software systems.
+
+=============================================================================
+FOUR EXAMPLES OF PROTOCOLS IN THE TCP/IP MODEL
+=============================================================================
+
+1. **HTTP (HyperText Transfer Protocol)**  
+   - **Layer**: Application Layer  
+   - **Function**: Used for transmitting web pages on the internet.  
+   - **Operation**: Handles client-server communication where browsers request and receive content from web servers.
+
+2. **TCP (Transmission Control Protocol)**  
+   - **Layer**: Transport Layer  
+   - **Function**: Provides reliable, ordered, and error-checked delivery of data.  
+   - **Operation**: Ensures that data sent from one device reaches the destination in the correct order and without loss.
+
+3. **IP (Internet Protocol)**  
+   - **Layer**: Internet Layer  
+   - **Function**: Responsible for addressing and routing packets between hosts.  
+   - **Operation**: Assigns IP addresses and determines the best path for data to travel across networks.
+
+4. **DNS (Domain Name System)**  
+   - **Layer**: Application Layer  
+   - **Function**: Translates human-readable domain names (e.g., google.com) into IP addresses.  
+   - **Operation**: When a domain name is entered, DNS resolves it to the corresponding server IP address.
+
+=============================================================================
+SUMMARY
+=============================================================================
+
+Protocols are essential for structured and predictable communication in networks.
+The TCP/IP model includes many such protocols across its four layers, each with
+a specific role in ensuring data can be exchanged reliably and efficiently across
+the internet or local networks.
+
+=============================================================================

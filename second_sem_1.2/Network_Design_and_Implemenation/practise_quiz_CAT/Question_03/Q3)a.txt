@@ -1,0 +1,96 @@
+=============================================================================
+QUESTION: Compare the OSI 7-Layer Model and the TCP/IP Model and explain their functions.
+=============================================================================
+
+=============================================================================
+OSI MODEL VS TCP/IP MODEL - COMPARISON AND FUNCTIONS
+=============================================================================
+
+The OSI (Open Systems Interconnection) model and TCP/IP (Transmission Control Protocol/Internet Protocol) model are both conceptual frameworks used to understand 
+and implement network communication protocols in layers.
+
+=============================================================================
+COMPARATIVE TABLE: OSI MODEL vs TCP/IP MODEL
+=============================================================================
+
+| OSI Model (7 Layers)        | TCP/IP Model (4 Layers)       | Description/Function Summary                                  |
+|-----------------------------|-------------------------------|----------------------------------------------------------------|
+| 7. Application              | 4. Application                | Interface for end-user services (HTTP, FTP, DNS, etc.)         |
+| 6. Presentation             | -- Merged in Application      | Data translation, encryption, compression                      |
+| 5. Session                  | -- Merged in Application      | Establishes, manages, and terminates sessions                  |
+| 4. Transport                | 3. Transport                  | Ensures reliable data transfer (TCP, UDP), flow and error control |
+| 3. Network                  | 2. Internet                  | Logical addressing, routing (IP, ICMP, ARP)                    |
+| 2. Data Link                | 1. Network Interface          | MAC addressing, framing, error detection                       |
+| 1. Physical                 | 1. Network Interface          | Transmission of raw bits over physical medium (cables, radio) |
+
+=============================================================================
+OSI 7-LAYER MODEL – FUNCTIONS
+=============================================================================
+
+1. **Physical Layer**  
+   - Transmits raw bits over a physical medium (e.g., cable, radio).
+   - Defines hardware specs (voltage, pin layout, cable specs).
+
+2. **Data Link Layer**  
+   - Responsible for node-to-node delivery.
+   - Handles error detection, MAC addressing, and framing.
+
+3. **Network Layer**  
+   - Manages logical addressing and routing of data packets (IP).
+   - Decides the best path for data delivery.
+
+4. **Transport Layer**  
+   - Ensures end-to-end communication.
+   - Provides error recovery, flow control, and segmentation (TCP/UDP).
+
+5. **Session Layer**  
+   - Manages sessions or connections between applications.
+   - Responsible for establishing, maintaining, and terminating sessions.
+
+6. **Presentation Layer**  
+   - Translates data formats (encryption, compression).
+   - Ensures data is readable between different systems.
+
+7. **Application Layer**  
+   - Closest to the end-user.
+   - Provides network services like email (SMTP), web (HTTP), file transfer (FTP).
+
+=============================================================================
+TCP/IP 4-LAYER MODEL – FUNCTIONS
+=============================================================================
+
+1. **Network Interface Layer**  
+   - Covers physical and data link operations.
+   - Responsible for hardware addressing and media access.
+
+2. **Internet Layer**  
+   - Handles packet routing across networks using IP addressing.
+   - Supports protocols like IP, ICMP, and ARP.
+
+3. **Transport Layer**  
+   - Manages end-to-end message delivery.
+   - Uses TCP for reliable or UDP for fast, connectionless communication.
+
+4. **Application Layer**  
+   - Includes OSI’s session, presentation, and application layers.
+   - Provides all application services and user interfaces.
+
+=============================================================================
+KEY DIFFERENCES
+=============================================================================
+
+- **Layer Count**: OSI has 7 layers; TCP/IP has 4 layers.
+- **Development**: OSI is a theoretical model; TCP/IP is practical and widely used.
+- **Protocol Definition**: OSI does not specify protocols; TCP/IP defines protocols used in real networks.
+- **Adoption**: TCP/IP is the foundation of the internet.
+
+=============================================================================
+SUMMARY
+=============================================================================
+
+While the OSI model is useful for understanding and teaching networking concepts, 
+the TCP/IP model is the practical framework used in real-world networking, especially 
+on the internet. Both models play a vital role in defining how data moves from one 
+device to another across a network.
+
+=============================================================================
